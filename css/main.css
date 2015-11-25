@@ -1,6 +1,16 @@
 .section.main {
 	background-image: url('../assets/images/main_background.png');
 }
+.logo {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.arrow {
+	position: absolute;
+	bottom: 40px;
+	right: 50%;
+}
 .section.services {
 	background-color: #0f1230;
 }
@@ -14,9 +24,15 @@
     margin-left: auto;
 	text-align: center;
 }
+
 @media screen and (max-width: 480px) {
 	.section p {
 		width: 70%;
 		font-size: 30px;
 	}
+}
+#imagen{
+	background-color: black;
+	width:200px;
+	height: 200px;
 }
