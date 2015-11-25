@@ -1,0 +1,36 @@
+header {
+    height: 768px;
+    text-align: center;
+    color: #fff;
+    background-image: url("http://i.imgur.com/KuUghi4.png");
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 0px;
+}
+
+.name{
+    margin-top: 7%
+}
+body {
+    margin: 0;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
