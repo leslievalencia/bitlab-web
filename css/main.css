@@ -116,3 +116,6 @@ table{
 	text-transform: uppercase;
 	font-size: 27px;
 }
+.slidebar a:hover {
+    color: #c95854;
+}
