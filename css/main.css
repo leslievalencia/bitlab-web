@@ -47,7 +47,6 @@ body {
     position: absolute;
     right: 0;
     z-index: 1;
-	padding-top: 195px;
 }
 .slidebar a, .slidebar p {
 	color: white;
@@ -58,6 +57,7 @@ body {
 }
 .slidebar p {
 	padding-left: 100px;
+	margin-top: 0;
 }
 .slidebar a {
 	text-decoration: none;

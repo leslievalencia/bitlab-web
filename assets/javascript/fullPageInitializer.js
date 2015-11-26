@@ -10,6 +10,7 @@ $(window).resize(resizeSlidebar);
 
 function resizeSlidebar() {
 	$('.slidebar').outerHeight($(window).height());
+	$('.menu-container').css('margin-top', $(window).height() / 2 - $('.menu-container').height() / 2);
 }
 
 function toggleMenu() {
