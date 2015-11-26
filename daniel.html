@@ -4,26 +4,41 @@
 		<title>Bitlab</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="jquery.fullPage.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="assets/javascript/fullPageInitializer.js"></script>
+<<<<<<< HEAD
 
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+=======
+		 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+>>>>>>> origin/master
 	    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 		<link href='https://fonts.googleapis.com/css?family=Volkhov:400italic|Nunito:300' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
+		<div class="slidebar">
+			<p>menú</p>
+			<ul>
+				<li><a href="#main"><span>Inicio</span></a></li>
+				<li><a href="#services"><span>Proceso</span></a></li>
+				<li><a href="http://bitlab.mx/nosotros/"><span>Nosotros</span></a></li>
+				<li><a href="http://bitlab.mx/contacto/"><span>Contacto</span></a></li>
+			</ul>
+		</div>
+		
 		<div>
 			<img class="logo" src="img/bitlab.png">
-						<div class="menu"></div>
 		</div>
 
 		<div id="fullpage">
-			<div class="section main">
+			<div class="section main" data-anchor="main">
 	 			<p>Lleva tu negocio al siguiente nivel</p>
-				<img class="arrow" src="img/flecha.png"/>
+	 			<a href="#services">
+					<img class="arrow" src="img/flecha.png"/>
+	 			</a>
 			</div>
 		 	<div class="section services">
 		 		<h2>Servicios</h2>
@@ -56,6 +71,5 @@
 		 		</table>
 		 	</div>
 		</div>
-
 	</body>
 </html>

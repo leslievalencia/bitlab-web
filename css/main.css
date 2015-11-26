@@ -1,11 +1,22 @@
+body {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 .section.main {
 	background-image: url('../assets/images/main_background.png');
 }
 .logo {
 	position: fixed;
-	top: 40px;
+	top: 25px;
 	left: 40px;
 	z-index:1;
+}
+.menu {
+	position: fixed;
+	padding: 20px;
+	top: 20px;
+	right: 20px;
+	z-index:1;
+	cursor: pointer;
 }
 .arrow {
 	position: absolute;
@@ -17,7 +28,6 @@
 	background-color: #0f1230;
 }
 .section p {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: white;
 	font-size: 55px;
 	width: 50%;
@@ -26,17 +36,19 @@
     margin-left: auto;
 	text-align: center;
 }
-
 @media screen and (max-width: 480px) {
 	.section p {
 		width: 70%;
 		font-size: 30px;
 	}
 }
-#imagen{
-	background-color: black;
-	width:200px;
-	height: 200px;
+.slidebar {
+    background: #3e0b36;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+	padding-top: 195px;
 }
 
 h2{
@@ -88,4 +100,19 @@ table{
 	height:400px;
 	width:auto;
 	margin-right:50px;
+}
+.slidebar a, .slidebar p {
+	color: white;
+}
+.slidebar ul {
+	list-style-type: none;
+	padding-left: 100px;
+}
+.slidebar p {
+	padding-left: 100px;
+}
+.slidebar a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 27px;
 }
