@@ -2,9 +2,10 @@
 	background-image: url('../assets/images/main_background.png');
 }
 .logo {
-	position: absolute;
+	position: fixed;
 	top: 40px;
 	left: 40px;
+	z-index:1;
 }
 .arrow {
 	position: absolute;
