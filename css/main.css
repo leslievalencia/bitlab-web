@@ -12,6 +12,7 @@
 	bottom: 40px;
 	right: 50%;
 }
+
 .section.services {
 	background-color: #0f1230;
 }
@@ -36,4 +37,55 @@
 	background-color: black;
 	width:200px;
 	height: 200px;
+}
+
+h2{
+	font-family: Volkhov;
+	font-weight: 400;
+	color:white;
+	font-size:15px;
+	margin-left:80px;
+	letter-spacing:2px;
+	padding-bottom:100px;
+}
+
+.box{
+	width:200px;
+	height:300px;
+	margin-left:58px;
+}
+
+h5{
+	text-transform: uppercase;
+	font-family:Montserrat;
+	font-size:10px;
+	font-weight: 400;
+	color:white;
+
+}
+
+ul.servicios{
+	list-style-type:square;
+	color:white;
+}
+
+.section.proceso{
+	background-color: #ededed;
+}
+
+table{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#content{
+	background-color: red;
+	height:500px;
+	width:500px;
+}
+
+.ilust{
+	height:400px;
+	width:auto;
+	margin-right:50px;
 }
