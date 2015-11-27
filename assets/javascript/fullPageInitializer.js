@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		anchors:['main', 'services']
+		anchors:['main', 'services', 'process']
 	});
 	resizeSlidebar();
 	toggleMenu();

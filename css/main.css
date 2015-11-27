@@ -90,15 +90,15 @@ table{
 }
 
 #content{
-	background-color: red;
 	height:500px;
-	width:500px;
+	width:400px;
+	text-align: center;
 }
 
 .ilust{
-	height:400px;
+	height:350px;
 	width:auto;
-	margin-right:50px;
+	margin-right:20px;
 }
 .slidebar a, .slidebar p {
 	color: white;
@@ -118,4 +118,43 @@ table{
 }
 .slidebar a:hover {
     color: #c95854;
+}
+
+h3{
+	font-family:Montserrat;
+	font-size:30px;
+	color:white;
+	font-weight: 700;
+	color:#0f1230;
+	text-transform: uppercase;
+}
+
+h6{
+	font-family:Volkohn;
+	font-size:18px;
+	color:#0f1230;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom:-25px;
+}
+
+.text{
+	font-family: Nunito;
+	font-size: 16px;
+}
+
+.button{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#7f345d;
+	width:80px;
+	padding:15px;
+	border-radius:5px;
+	text-align:center;
+	color:white;
+	font-size:11px;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 400;
+
 }
