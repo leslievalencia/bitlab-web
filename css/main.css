@@ -1,6 +1,59 @@
 body {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+h1{
+	color: white;
+	font-size: 55px;
+	width: 50%;
+	text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+	text-align: center;
+}
+
+h2{
+	font-family:Volkohn;
+	font-size:16px;
+	color:white;
+	font-weight: 400;
+	font-style: Italic;
+}
+
+h3 {
+	font-family:Volkohn;
+	font-size:18px;
+	color:#0f1230;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom:-35px;
+}
+
+h4{
+	font-family: Montserrat;
+	font-weight: 700;
+	color: #0f1230;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h5{
+	font-family:Volkohn;
+	font-size:18px;
+	color:white;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom:-55px;
+}
+
+h6 {
+	font-family: Montserrat;
+	font-weight: 700;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
 .section.main {
 	background-image: url('../assets/images/main_background.png');
 }
@@ -27,15 +80,7 @@ body {
 .section.services {
 	background-color: #0f1230;
 }
-.section p {
-	color: white;
-	font-size: 55px;
-	width: 50%;
-	text-transform: uppercase;
-    margin-right: auto;
-    margin-left: auto;
-	text-align: center;
-}
+
 @media screen and (max-width: 480px) {
 	.section p {
 		width: 70%;
@@ -50,7 +95,7 @@ body {
     z-index: 1;
 }
 
-h2{
+.section-name{
 	font-family: Volkhov;
 	font-weight: 400;
 	color:white;
@@ -64,15 +109,6 @@ h2{
 	width:200px;
 	height:300px;
 	margin-left:58px;
-}
-
-h5{
-	text-transform: uppercase;
-	font-family:Montserrat;
-	font-size:10px;
-	font-weight: 400;
-	color:white;
-
 }
 
 ul.servicios{
@@ -121,23 +157,6 @@ table{
 }
 
 
-h2{
-	font-family:Montserrat;
-	font-size:30px;
-	color:white;
-	font-weight: 700;
-	color:white;
-	text-transform: uppercase;
-}
-
-
-h4{
-	font-family: Volkohn;
-	font-style: italic;
-	color: #c95854;
-	font-size: 16px;
-}
-
 .menu-container p {
 	font-family: Volkohn;
 	font-style: italic;
@@ -145,23 +164,6 @@ h4{
 	font-size: 16px;
 }
 
-h3 {
-	font-family:Montserrat;
-	font-size:30px;
-	color:white;
-	font-weight: 700;
-	color:#0f1230;
-	text-transform: uppercase;
-}
-
-h6 {
-	font-family:Volkohn;
-	font-size:18px;
-	color:#0f1230;
-	font-weight: 300;
-	font-style: italic;
-	margin-bottom:-25px;
-}
 
 .text {
 	font-family: Nunito;
@@ -182,7 +184,6 @@ h6 {
 	text-transform: uppercase;
 	font-family: Montserrat;
 	font-weight: 400;
-	
 }
 
 a {
@@ -193,23 +194,28 @@ a {
 	background-color: #964973;
 }
 
-.botsections{
-	position:absolute;
-	left:0;
-	width:100%;
-	background-color:white;
-	display:inline-block;
-}
-
 .nosotros{
 	background-image: url('../img/nosotros-img.png');
 	height:500px;
 	text-align:center;
-	padding-top:300px;
 }
 
 .clientes{
 	padding-top:300px;
 	background-color:red;
 	height:1000px;
+}
+
+.buttonwhite {
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+	border: 2px solid white;
+	border-radius:5px;
+	font-size:11px;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 400;
+	padding:15px;
+	width:80px;
 }
