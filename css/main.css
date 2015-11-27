@@ -120,6 +120,16 @@ table{
     color: #c95854;
 }
 
+h2{
+	font-family:Montserrat;
+	font-size:30px;
+	color:white;
+	font-weight: 700;
+	color:white;
+	text-transform: uppercase;
+}
+
+
 h3{
 	font-family:Montserrat;
 	font-size:30px;
@@ -173,9 +183,18 @@ a{
 	left:0;
 	width:100%;
 	background-color:white;
+	display:inline-block;
 }
 
 .nosotros{
 	background-image: url('../img/nosotros-img.png');
 	height:500px;
+	text-align:center;
+	padding-top:300px;
+}
+
+.clientes{
+	padding-top:300px;
+	background-color:red;
+	height:1000px;
 }
