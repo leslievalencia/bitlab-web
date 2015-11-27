@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		anchors:['main', 'services', 'process']
+		anchors:['main', 'services', 'process', 'nosotros']
 	});
 	resizeSlidebar();
 	toggleMenu();
@@ -18,5 +18,5 @@ function toggleMenu() {
 	movement = state ? "+=600" : "-=600";
 	imageUrl = state ? "img/cerrar.png" : "img/menu.png";
 	$('.slidebar').animate({ right: movement });
-	$('.menu').attr("src", imageUrl)
+	$('.menu').attr("src", imageUrl);
 }

@@ -167,3 +167,15 @@ a{
 .button:hover{
 	background-color: #964973;
 }
+
+.botsections{
+	position:absolute;
+	left:0;
+	width:100%;
+	background-color:white;
+}
+
+.nosotros{
+	background-image: url('../img/nosotros-img.png');
+	height:500px;
+}
