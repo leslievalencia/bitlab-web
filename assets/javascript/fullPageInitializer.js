@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		anchors:['main', 'services', 'process', 'us']
+		anchors:['main', 'services', 'process', 'us', 'clients', 'procesocontent', 'nosotroscontent']
 	});
 	resizeSlidebar();
 	toggleMenu();

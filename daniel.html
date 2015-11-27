@@ -8,7 +8,6 @@
 		<script type="text/javascript" src="jquery.fullPage.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="assets/javascript/fullPageInitializer.js"></script>
-		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 		<link href='https://fonts.googleapis.com/css?family=Volkhov:400italic|Nunito:300' rel='stylesheet' type='text/css'>
 	</head>
@@ -19,9 +18,11 @@
 				<p>Menú</p>
 				<ul>
 					<li><a href="#main"	onclick="toggleMenu()"><span>Inicio</span></a></li>
-					<li><a href="#services" onclick="toggleMenu()"><span>Proceso</span></a></li>
-					<li><a href="http://bitlab.mx/nosotros/" onclick="toggleMenu()"><span>Nosotros</span></a></li>
-					<li><a href="http://bitlab.mx/contacto/" onclick="toggleMenu()"><span>Contacto</span></a></li>
+					<li><a href="#services" onclick="toggleMenu()"><span>Servicios</span></a></li>
+					<li><a href="proceso.html" onclick="toggleMenu()"><span>Proceso</span></a></li>
+					<li><a href="nosotros.html" onclick="toggleMenu()"><span>Nosotros</span></a></li>
+					<li><a href="#clients" onclick="toggleMenu()"><span>Clientes</span></a></li>
+					<li><a href="#" onclick="toggleMenu()"><span>Contacto</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -38,27 +39,32 @@
 					<img class="arrow" src="img/flecha.png"/>
 	 			</a>
 			</div>
+<!--Servicios-->
 		 	<div class="section services" data-anchor="services">
 		 		<h2>Servicios</h2>
-		 		<div class="box">
-		 			<ul class="servicios">
-		 				<li>
-		 					<h5>Desarrollo web</h5>
-		 				</li>
-		 				<li>
-		 					<h5>Diseño web</h5>
-		 				</li>
-		 				<li>
-		 					<h5>Diseño gráfico</h5>
-		 				</li>
-		 				<li>
-		 					<h5>Branding</h5>
-		 				</li>
-		 				<li>
-		 					<h5>Social media</h5>
-		 				</li>
-		 			</ul>
-		 		</div>
+		 		<table>
+					<tr>
+						<td class="servicios">
+				 			<ul>
+				 				<li>	
+				 					Desarrollo web
+				 				</li>
+				 				<li>
+				 					Diseño web
+				 				</li>
+				 				<li>
+				 					Diseño gráfico
+				 				</li>
+				 				<li>
+				 					Branding
+				 				</li>
+				 				<li>
+				 					Social media
+				 				</li>
+				 			</ul>
+						</td>
+					</tr>
+		 		</table>
 		 	</div>
 <!--Proceso-->
 		 	<div class="section proceso" data-anchor="process">
@@ -69,20 +75,38 @@
 			 				<h3>Consultoría sin costo ni obligaciones.</h3>
 			 				<h4>CONOCE NUESTRO PROCESO DE TRABAJO</h4>
 			 				<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada dictum mauris, sit amet porttitor nisl dignissim eget. Integer ac felis volutpat, pharetra risus quis, posuere orci. Suspendisse eleifend, tortor eget convallis tincidunt, mi velit bibendum eros, eget consequat nisl justo sit amet lectus. Sed ornare elementum sapien et luctus. Nam elementum urna in blandit ornare. Suspendisse sed tortor vel lacus ultrices lobortis quis eget quam.</p>
-			 				<a href="#"><div class="button">Saber más</div></a>
+			 				<a href="proceso.html"><div class="button">Saber más</div></a>
 			 			</td>
 		 			</tr>
 		 		</table>
 		 	</div>
-<!--Nosotros y Clientes-->	
-		 	<div class="section nosotros" style="color:white" data-anchor="nosotros">
+<!--Nosotros-->	
+		 	<div class="section nosotros" style="color:white" data-anchor="us">
  				<h5 style="color:white">¿Quiénes somos?</h5>
  				<h6>Conoce a nuestro equipo de trabajo</h6>
- 				<a href="#"><div class="buttonwhite">Ver más</div></a>
+ 				<a href="nosotros.html"><div class="buttonwhite">Ver más</div></a>
 			</div>
-			<div class="section fp-auto-height clientes">
-		 			<h1>Adiós<br><br><br><br></h1>
+<!--Clientes-->
+		 	<div class="section clients" data-anchor="clients">
+		 		<h2 style="color:#0f1230">Clientes</h2>
+		 		<div>
+		 			<table>
+		 				<tr>
+		 					<td>Hola</td>
+		 					<td>Hola</td>
+		 					<td>Hola</td>
+		 					<td>Hola</td>
+		 				</tr>
+		 				<tr>
+		 					<td>Hola</td>
+		 					<td>Hola</td>
+		 					<td>Hola</td>
+		 					<td>Hola</td>
+		 				</tr>
+		 			</table>
+		 		</div>
 		 	</div>
+
 		</div>
 	</body>
 </html>
