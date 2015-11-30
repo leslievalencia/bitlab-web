@@ -57,6 +57,14 @@ h6 {
 	text-transform: uppercase;
 }
 
+.conocenos {
+	font-family: Montserrat;
+	font-weight: 700;
+	color: white;
+	font-size: 30px;
+	margin-top: 55px;
+}
+
 .section.main {
 	background-image: url('../assets/images/main_background.png');
 }
@@ -213,6 +221,15 @@ a {
 	font-weight: 400;
 	padding:15px;
 	width:80px;
+}
+
+.buttonwhite:hover {
+	color: #d27c49;
+	border-color: #d27c49;
+}
+
+.cliente1:hover {
+    content: url('../img/cliente1.png');
 }
 
 li{
