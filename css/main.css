@@ -228,8 +228,29 @@ a {
 	border-color: #d27c49;
 }
 
+.client-container{
+	padding-left: 24%;
+}
+
 .cliente1:hover {
     content: url('../img/cliente1.png');
+}
+
+.cliente2:hover {
+    content: url('../img/cliente2.png');
+}
+
+.cliente3:hover {
+    content: url('../img/cliente3.png');
+}
+
+.cliente4:hover {
+    content: url('../img/cliente4.png');
+}
+
+.general-client {
+	margin-right: 20px;
+
 }
 
 li{
