@@ -228,6 +228,15 @@ a {
 	border-color: #d27c49;
 }
 
+.title-clients {
+	color:#0f1230;
+	font-family: Volkohn;
+	font-style: italic;
+	font-size: 16px;
+	padding-left: 6%;
+	width: 6%;
+}
+
 .client-container{
 	padding-left: 24%;
 }
