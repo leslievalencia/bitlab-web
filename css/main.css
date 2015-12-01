@@ -92,10 +92,6 @@ h6 {
 	background-color: #0f1230;
 }
 
-.section.clients {
-	background-color: #ededed;
-}
-
 @media screen and (max-width: 480px) {
 	.section h1 {
 		width: 70%;
@@ -261,6 +257,15 @@ a {
 	margin-right: 20px;
 
 }
+.clients .clients {
+	background-color: #ededed;
+	height: 70%;
+}
+
+.clients .footer {
+	background-color: black;
+	height: 30%;
+}
 
 li{
 	font-size:11px;
@@ -276,18 +281,18 @@ li{
 	background-image: url('../img/nosotroscontent-img.png');
 }
 
-.center{
+.center {
 	width:30%;
-	text-align:center;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.section.procesocontent{
+.section.procesocontent {
 	background-color: #ededed;
 	text-align:center;
 }
 
-.section.pasos{
+.section.pasos {
 	background-color:white;
 }
