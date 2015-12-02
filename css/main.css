@@ -230,14 +230,14 @@ a {
 	font-style: italic;
 	font-size: 16px;
 	padding-left: 6.5%;
-	padding-top: 12%;
+	padding-top: 9%;
 	width: 6%;
 	float: left;
 }
 
 .client-container{
 	padding-left: 24%;
-	padding-top: 13%;
+	padding-top: 11%;
 }
 
 .cliente1:hover {
@@ -262,12 +262,12 @@ a {
 }
 .clients .clients {
 	background-color: #ededed;
-	height: 70%;
+	height: 60%;
 }
 
 .clients .footer {
 	background-color: black;
-	height: 30%;
+	height: 40%;
 }
 
 li{
@@ -298,4 +298,57 @@ li{
 
 .section.pasos {
 	background-color:white;
+}
+
+.footer-conocenos {
+	text-transform: uppercase;
+	color: white;
+	font-size: 25px;
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+
+.footer-adress {
+	color: white;
+	font-family: Nunito;
+	font-style: light;
+	width: 70%;
+	padding-left: 40px;
+}
+
+.footer-tel {
+	color: white;
+	font-family: Nunito;
+	font-style: light;
+	padding-left: 40px;
+}
+
+.footer-hola {
+	text-transform: uppercase;
+	color: white;
+	font-size: 25px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 40px;
+}
+
+.footer-web {
+	color: white;
+	font-family: Nunito;
+	font-style: light;
+	padding-left: 40px;
+}
+
+.footer-rights {
+	color: white;
+	font-family: Volkohn;
+	font-style: italic;
+	padding-left: 65px;
+	margin-bottom: 100px;
+}
+
+.three {
+	width: 33.33%;
+	float: left;
 }
