@@ -359,7 +359,8 @@ li{
 }
 
 .footer-button {
-	margin-top: 1000px;
+	position:absolute;
+	bottom:5%;
 }
 
 .three {
