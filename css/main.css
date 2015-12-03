@@ -171,7 +171,6 @@ table{
 }
 
 .button {
-
  text-decoration: none;
  margin-left:auto;
  margin-right:auto;
@@ -365,12 +364,13 @@ li{
 }
 
 .contactBtn{
- right: 10px;
+ right: 0;
+ display: none;
  position:absolute;
  color:white;
  z-index: 2;
  text-transform: uppercase;
- font-size: 11px;
+ font-size: 13px;
  top:50%;
  transform: rotate(90deg) translateY(50%);
  cursor: pointer;
@@ -410,6 +410,7 @@ li{
  color:#0f1230;
  right:30px;
  top:40px;
+ cursor:pointer;
 }
 
 .pasos{
@@ -473,4 +474,41 @@ li{
  width:300px;
  display:inline-block;
  vertical-align: middle;
+}
+
+.minform{
+ font-family: 'Montserrat';
+ font-size:11px;
+ color:#999999;
+ margin-top:60px;
+ text-align:right;
+ text-transform: uppercase;
+}
+
+.minform input{
+ border-style:none;
+ background-color:#d1d1d1;
+ margin:20px;
+ height:20px;
+ width:70%;
+ border-radius: 5px;
+ padding:5px;
+ font-family:'Nunito'
+}
+
+.buttonform {
+ text-decoration: none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:20px;
+ background-color:#7f345d;
+ width:100px;
+ padding:15px;
+ border-radius:5px;
+ text-align:center;
+ color:white;
+ font-size:11px;
+ text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 400;
 }

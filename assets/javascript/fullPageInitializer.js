@@ -8,8 +8,8 @@ $(document).ready(function() {
 	});
 	resizeSlidebarContact();
 	resizeSlidebar();
-	toggleMenu();
-	toggleContact();
+	toggleMenu(0);
+	toggleContact(0);
 });
 
 $(window).resize(resizeSlidebar);
@@ -19,11 +19,12 @@ function resizeSlidebar() {
 	$('.menu-container').css('margin-top', $(window).height() / 2 - $('.menu-container').height() / 2);
 }
 
-function toggleMenu() {
-	state = ($('.slidebar').position().left >= $( window ).width());
+function toggleMenu( duration ) {
+	state = menuStatus();
 	movement = state ? "+=600" : "-=600";
+toggleContactVisibility();
 	imageUrl = state ? "img/cerrar.png" : "img/menu.png";
-	$('.slidebar').animate({ right: movement });
+	$('.slidebar').animate({ right: movement }, duration);
 	$('.menu').attr("src", imageUrl);
 }
 
@@ -35,11 +36,22 @@ function changeLogo( index ) {
 	}
 }
 
-function toggleContact() {
+function toggleContactVisibility() {
+ $('.contactBtn').css("display") == "none" ?  $('.contactBtn').delay(400).show(400) : $('.contactBtn').hide();
+}
+
+function menuStatus() {
+ return ($('.slidebar').position().left >= $( window ).width());
+}
+
+function toggleContact( duration ) {
 	state = ($('.slidebarContact').position().left >= $( window ).width());
 	movement = state ? "+=600" : "-=600";
-	$('.slidebarContact').animate({ right: movement });
+	$('.slidebarContact').animate({ right: movement }, duration);
 	$('.contact').attr("src", imageUrl);
+ if (!menuStatus() && state) {
+  toggleMenu();
+ }
 }
 
 function resizeSlidebarContact() {
