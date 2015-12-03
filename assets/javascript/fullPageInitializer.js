@@ -6,8 +6,10 @@ $(document).ready(function() {
             changeLogo(index);
         }
 	});
+	resizeSlidebarContact();
 	resizeSlidebar();
 	toggleMenu();
+	toggleContact();
 });
 
 $(window).resize(resizeSlidebar);
@@ -31,4 +33,16 @@ function changeLogo( index ) {
 	} else {
 		$('.logo').attr('src', 'img/bitlab.png');
 	}
+}
+
+function toggleContact() {
+	state = ($('.slidebarContact').position().left >= $( window ).width());
+	movement = state ? "+=600" : "-=600";
+	$('.slidebarContact').animate({ right: movement });
+	$('.contact').attr("src", imageUrl);
+}
+
+function resizeSlidebarContact() {
+	$('.slidebarContact').outerHeight($(window).height());
+	$('.contact-container').css('margin-top', $(window).height() / 2 - $('.contact-container').height() / 2);
 }

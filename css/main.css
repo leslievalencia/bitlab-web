@@ -380,3 +380,59 @@ li{
 	margin-top:200px;
 	text-align: left;
 }
+
+.slidebarContact {
+    background: blue ;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+}
+
+.contactBtn{
+	right: 10px;
+	position:absolute;
+	color:white;
+	z-index: 2;
+	text-transform: uppercase;
+	font-size: 11px;
+	top:50%;
+	transform: rotate(90deg) translateY(50%);
+	cursor: pointer;
+}
+
+.contact-container p {
+	font-family: Volkohn;
+	font-style: italic;
+	color: #c95854;
+	font-size: 16px;
+}
+
+.contact {
+	position: fixed;
+	padding: 20px;
+	top: 20px;
+	right: 20px;
+	z-index:1;
+	cursor: pointer;
+}
+
+.slidebarContact a, .slidebarContact p {
+	color: red;
+}
+.slidebarContact ul {
+	list-style-type: none;
+	padding-left: 100px;
+}
+.slidebarContact p {
+	padding-left: 100px;
+	margin-top: 0;
+}
+.slidebarContact a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 27px;
+}
+.slidebarContact a:hover {
+    color: #c95854;
+}
