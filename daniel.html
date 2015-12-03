@@ -1,113 +1,115 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Bitlab</title>
-		<meta charset="UTF-8">
-		<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.fullPage.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		<script src="assets/javascript/fullPageInitializer.js"></script>
-	    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-		<link href='https://fonts.googleapis.com/css?family=Volkhov:400italic|Nunito:300' rel='stylesheet' type='text/css'>
-	</head>
+<head>
+ <title>Bitlab</title>
+ <meta charset="UTF-8">
+ <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script type="text/javascript" src="jquery.fullPage.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/main.css" />
+ <script src="assets/javascript/fullPageInitializer.js"></script>
+ <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+ <link href='https://fonts.googleapis.com/css?family=Volkhov:400italic|Nunito:300' rel='stylesheet' type='text/css'>
+</head>
 
-	<body>
-		<div class="slidebar">
-			<div class="menu-container">
-				<p>Menú</p>
-				<ul>
-					<li><a href="#main"	onclick="toggleMenu()"><span>Inicio</span></a></li>
-					<li><a href="#services" onclick="toggleMenu()"><span>Servicios</span></a></li>
-					<li><a href="proceso.html" onclick="toggleMenu()"><span>Proceso</span></a></li>
-					<li><a href="nosotros.html" onclick="toggleMenu()"><span>Nosotros</span></a></li>
-					<li><a href="#clients" onclick="toggleMenu()"><span>Clientes</span></a></li>
-				</ul>
-			</div>
-		</div>
-
-
-<!--contacto-->
-		<div class="slidebarContact">
-			<div class="contact-container">
-				<p>Contáctanos</p>
-				<p class="text">Hola</p>
-				<a onclick="toggleContact()">Cerrar</a>
-			</div>
-		</div>
-<!--Contacto-->
+<body>
+ <div class="slidebar">
+  <div class="menu-container">
+   <p>Menú</p>
+   <ul>
+    <li><a href="#main"	onclick="toggleMenu()"><span>Inicio</span></a></li>
+    <li><a href="#services" onclick="toggleMenu()"><span>Servicios</span></a></li>
+    <li><a href="proceso.html" onclick="toggleMenu()"><span>Proceso</span></a></li>
+    <li><a href="nosotros.html" onclick="toggleMenu()"><span>Nosotros</span></a></li>
+    <li><a href="#clients" onclick="toggleMenu()"><span>Clientes</span></a></li>
+   </ul>
+  </div>
+ </div>
 
 
+ <!--contacto-->
+ <div class="slidebarContact">
+  <a class="closeContact" onclick="toggleContact()">Cerrar</a>
+  <div class="contact-container">
+   <h3>Contáctanos</3>
+    <h4>say hello!</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <h3>info@bitlab.mx</h3>
+   </div>
+  </div>
+  <!--Contacto-->
 
-		<div>
-			<a href="#main"><img class="logo" src="img/bitlab.png"></a>
-			<img class="menu" src="img/menu.png" onclick="toggleMenu()">
-			<div class="contactBtn" onclick="toggleContact()">Contacto</div>
-		</div>
 
 
-<!--Main-->
-		<div id="fullpage">
-			<div class="section main" data-anchor="main">
-	 			<h1>Lleva tu negocio al siguiente nivel</h1>
-	 			<a href="#services">
-					<img class="arrow" src="img/flecha.png"/>
-	 			</a>
-			</div>
-<!--Servicios-->
-		 	<div class="section services" data-anchor="services">
-		 		<h2>Servicios</h2>
-		 	</div>
-<!--Proceso-->
-		 	<div class="section proceso" data-anchor="process">
-		 		<table>
-		 			<tr>
-		 				<td><img class="ilust" src="img/Proceso.png"/></td>
-			 			<td id="content">
-			 				<h3>Consultoría sin costo ni obligaciones.</h3>
-			 				<h4>CONOCE NUESTRO PROCESO DE TRABAJO</h4>
-			 				<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada dictum mauris, sit amet porttitor nisl dignissim eget. Integer ac felis volutpat, pharetra risus quis, posuere orci. Suspendisse eleifend, tortor eget convallis tincidunt, mi velit bibendum eros, eget consequat nisl justo sit amet lectus. Sed ornare elementum sapien et luctus. Nam elementum urna in blandit ornare. Suspendisse sed tortor vel lacus ultrices lobortis quis eget quam.</p>
-			 				<a href="proceso.html"><div class="button">Saber más</div></a>
-			 			</td>
-		 			</tr>
-		 		</table>
-		 	</div>
-<!--Nosotros-->	
-		 	<div class="section nosotros" style="color:white" data-anchor="us">
- 				<h5 style="color:white">Conoce a nuestro equipo de trabajo</h5>
- 				<p class="conocenos">¿Quiénes somos?</p>
- 				<a href="nosotros.html"><div class="buttonwhite">Ver más</div></a>
-			</div>
-<!--Clientes-->
-		 	<div class="section clients" data-anchor="clients" style="height: 1900px;">
-		 		<div class="clients">
-			 		<p class="title-clients">Nuestros clientes</p>
-			 		<div class="client-container">
-				 		<img class="cliente1 general-client" src='img/cliente1g.png'/>
-				 		<img class="cliente2 general-client" src='img/cliente2g.png'/>
-				 		<img class="cliente3 general-client" src='img/cliente3g.png'/>
-				 		<img class="cliente4 general-client" src='img/cliente4g.png'/>
-			 		</div>
-		 		</div>
-		 		<div class="footer">
-			 		<div class="three">
-			 			<p class="footer-conocenos">Conócenos</p>
-				 		<p class="footer-adress"> Piedras Negras #229, 
-							Col. Mitras Centro C.P. 64650</p>
-						<p class="footer-tel">+52 (81) 21392290</p>
-						<p class="footer-hola">Dinos Hola!</p>
-						<p class="footer-web">jobs@bitlab.mx</p>
-			 		</div>
-			 		<div class="three">
-						<p class="footer-rights">2015 - BITLAB - All rights reserved</p>
-			 		</div>
-			 		<div class="three" style="height: 100%">
-						<a href="https://www.facebook.com/" class="footer-button" target="_blank"><img src="img/facebook.png"></a>
-			 		</div>
-			 		<div class="three"></div>
-		 		</div>
-		 	</div>
-		</div>
-	</body>
-</html>
+  <div>
+   <a href="#main"><img class="logo" src="img/bitlab.png"></a>
+   <img class="menu" src="img/menu.png" onclick="toggleMenu()">
+   <div class="contactBtn" onclick="toggleContact()">Contacto</div>
+  </div>
+
+
+  <!--Main-->
+  <div id="fullpage">
+   <div class="section main" data-anchor="main">
+    <h1>Lleva tu negocio al siguiente nivel</h1>
+    <a href="#services">
+     <img class="arrow" src="img/flecha.png"/>
+    </a>
+   </div>
+   <!--Servicios-->
+   <div class="section services" data-anchor="services">
+    <h2>Servicios</h2>
+   </div>
+   <!--Proceso-->
+   <div class="section proceso" data-anchor="process">
+    <table>
+     <tr>
+      <td><img class="ilustmain" src="img/Proceso.png"/></td>
+      <td id="content">
+       <h3>Consultoría sin costo ni obligaciones.</h3>
+       <h4>CONOCE NUESTRO PROCESO DE TRABAJO</h4>
+       <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada dictum mauris, sit amet porttitor nisl dignissim eget. Integer ac felis volutpat, pharetra risus quis, posuere orci. Suspendisse eleifend, tortor eget convallis tincidunt, mi velit bibendum eros, eget consequat nisl justo sit amet lectus. Sed ornare elementum sapien et luctus. Nam elementum urna in blandit ornare. Suspendisse sed tortor vel lacus ultrices lobortis quis eget quam.</p>
+        <a href="proceso.html"><div class="button">Saber más</div></a>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <!--Nosotros-->
+    <div class="section nosotros" style="color:white" data-anchor="us">
+     <h5 style="color:white">Conoce a nuestro equipo de trabajo</h5>
+     <p class="conocenos">¿Quiénes somos?</p>
+     <a href="nosotros.html"><div class="buttonwhite">Ver más</div></a>
+    </div>
+    <!--Clientes-->
+    <div class="section clients" data-anchor="clients" style="height: 1900px;">
+     <div class="clients">
+      <p class="title-clients">Nuestros clientes</p>
+      <div class="client-container">
+       <img class="cliente1 general-client" src='img/cliente1g.png'/>
+       <img class="cliente2 general-client" src='img/cliente2g.png'/>
+       <img class="cliente3 general-client" src='img/cliente3g.png'/>
+       <img class="cliente4 general-client" src='img/cliente4g.png'/>
+      </div>
+     </div>
+     <div class="footer">
+      <div class="three">
+       <p class="footer-conocenos">Conócenos</p>
+       <p class="footer-adress"> Piedras Negras #229,
+        Col. Mitras Centro C.P. 64650</p>
+        <p class="footer-tel">+52 (81) 21392290</p>
+        <p class="footer-hola">Dinos Hola!</p>
+        <p class="footer-web">jobs@bitlab.mx</p>
+       </div>
+       <div class="three">
+        <p class="footer-rights">2015 - BITLAB - All rights reserved</p>
+       </div>
+       <div class="three" style="height: 100%">
+        <a href="https://www.facebook.com/" class="footer-button" target="_blank"><img src="img/facebook.png"></a>
+       </div>
+       <div class="three"></div>
+      </div>
+     </div>
+    </div>
+   </body>
+   </html>
