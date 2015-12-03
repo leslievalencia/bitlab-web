@@ -355,7 +355,11 @@ li{
 	font-family: Volkohn;
 	font-style: italic;
 	padding-left: 65px;
-	margin-bottom: 100px;
+	margin-top:225px;
+}
+
+.footer-button {
+	margin-top: 1000px;
 }
 
 .three {
