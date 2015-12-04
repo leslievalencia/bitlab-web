@@ -377,59 +377,43 @@ li{
 	text-align: center
 }
 
+.row {
+	height: 480px;
+}
+
+.row .image {
+	width: 60%;
+	height: 100%;
+	background-size: cover;
+	float: left;
+}
+
+.row:nth-of-type(1) .image {
+	background-image: url('../img/img01.png');
+}
+
+.row:nth-of-type(2) .image {
+	background-image: url('../img/img02.png');
+}
+
+.row .text {
+	width: 40%;
+	float: left;
+}
+
 .h-center div{
 	margin-top:200px;
 	text-align: left;
 }
 
 .numbers {
-text-align: left;
-margin:0;
-margin-bottom:-50px;
-color:#0f1230 ;
-margin-top: -65px;
-}
-
-.right {
-	width:34%;
-	right: 0;
-	float:right;
-	height: 500px;
-	color:#0f1230;
-	top: 0;
-	padding: 30px;
-	margin: 10px;
-}
-
-.img-01 {
-	width: 60%;
-	left: 0;
-	position: absolute;
-	height: 500px;
-	top: 0;
-}
-
-.img-01 img {
-	max-width: 100%;
-	max-height: 100%;
-	top: 0;
+	text-align: left;
+	margin:0;
+	margin-bottom:-50px;
+	color:#0f1230 ;
+	margin-top: -65px;
 }
 
 .text1 {
 	margin-top: -19px;
 }
-
-.img-02 {
-	width: 60%
-	right:0;
-	position: absolute;
-	height: 500px;
-}
-
-.img-02 img {
-	max-width: 100%;
-	max-height: 100%;
-	padding-top: 374px;
-}
-
-
