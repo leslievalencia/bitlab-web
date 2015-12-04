@@ -352,20 +352,6 @@ li{
  color:#0f1230;
 }
 
-.contactfull{
- width:100%;
- background-color:#d27c49;
- display:inline-block;
- text-align: center;
- height:100%;
-}
-
-.contacttext{
- display: inline-block;
- height:50%;
- width:500px;
-}
-
 .ilustmain{
  margin:50px;
  width:300px;
@@ -490,4 +476,49 @@ li{
 
 .cliente4:hover {
  content: url('../img/cliente4.png');
+}
+
+.contactfull{
+ background-color: #d27c49;
+}
+
+.contactleft{
+ width:50%;
+ display: inline-block;
+}
+
+.fullform input{
+ border-style:none;
+ width:auto;
+ display: inline-block;
+ background-color:#d1d1d1;
+ margin:20px;
+ height:20px;
+ border-radius: 5px;
+ padding:5px;
+ font-family:'Nunito'
+}
+
+.buttonfullform {
+ text-decoration: none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:20px;
+ background-color:#7f345d;
+ width:100px;
+ padding:15px;
+ border-radius:5px;
+ text-align:center;
+ color:white;
+ font-size:11px;
+ text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 400;
+ cursor:pointer;
+ border:0;
+ outline: 0;
+}
+
+.buttonfullform:hover {
+ background-color: #964973;
 }
