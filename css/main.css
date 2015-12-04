@@ -185,6 +185,7 @@ table{
 .text {
 	font-family: Nunito;
 	font-size: 16px;
+	margin-top: 43px;
 }
 
 .button {
@@ -380,3 +381,55 @@ li{
 	margin-top:200px;
 	text-align: left;
 }
+
+.numbers {
+text-align: left;
+margin:0;
+margin-bottom:-50px;
+color:#0f1230 ;
+margin-top: -65px;
+}
+
+.right {
+	width:34%;
+	right: 0;
+	float:right;
+	height: 500px;
+	color:#0f1230;
+	top: 0;
+	padding: 30px;
+	margin: 10px;
+}
+
+.img-01 {
+	width: 60%;
+	left: 0;
+	position: absolute;
+	height: 500px;
+	top: 0;
+}
+
+.img-01 img {
+	max-width: 100%;
+	max-height: 100%;
+	top: 0;
+}
+
+.text1 {
+	margin-top: -19px;
+}
+
+.img-02 {
+	width: 60%
+	right:0;
+	position: absolute;
+	height: 500px;
+}
+
+.img-02 img {
+	max-width: 100%;
+	max-height: 100%;
+	padding-top: 374px;
+}
+
+
