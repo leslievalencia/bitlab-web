@@ -184,6 +184,7 @@ table{
  text-transform: uppercase;
  font-family: Montserrat;
  font-weight: 400;
+ cursor:pointer;
 }
 
 a {
@@ -212,6 +213,7 @@ a {
  font-weight: 400;
  padding:15px;
  width:80px;
+ cursor:pointer;
 }
 
 .buttonwhite:hover {
@@ -219,51 +221,6 @@ a {
  border-color: #d27c49;
 }
 
-.title-clients {
- color:#0f1230;
- font-family: Volkohn;
- font-style: italic;
- font-size: 16px;
- padding-left: 6.5%;
- padding-top: 9%;
- width: 6%;
- float: left;
-}
-
-.client-container{
- padding-left: 24%;
- padding-top: 11%;
-}
-
-.cliente1:hover {
- content: url('../img/cliente1.png');
-}
-
-.cliente2:hover {
- content: url('../img/cliente2.png');
-}
-
-.cliente3:hover {
- content: url('../img/cliente3.png');
-}
-
-.cliente4:hover {
- content: url('../img/cliente4.png');
-}
-
-.general-client {
- margin-right: 20px;
-
-}
-.clients .clients {
- background-color: #ededed;
- height: 60%;
-}
-
-.clients .footer {
- background-color: black;
- height: 40%;
-}
 
 li{
  font-size:11px;
@@ -289,60 +246,6 @@ li{
 .section.procesocontent {
  background-color: #ededed;
  text-align:center;
-}
-
-
-.footer-conocenos {
- text-transform: uppercase;
- color: white;
- font-size: 25px;
- margin: 0px;
- padding-top: 30px;
- padding-left: 40px;
-}
-
-.footer-adress {
- color: white;
- font-family: Nunito;
- font-style: light;
- width: 70%;
- padding-left: 40px;
-}
-
-.footer-tel {
- color: white;
- font-family: Nunito;
- font-style: light;
- padding-left: 40px;
-}
-
-.footer-hola {
- text-transform: uppercase;
- color: white;
- font-size: 25px;
- margin: 0px;
- padding-top: 5px;
- padding-left: 40px;
-}
-
-.footer-web {
- color: white;
- font-family: Nunito;
- font-style: light;
- padding-left: 40px;
-}
-
-.footer-rights {
- color: white;
- font-family: Volkohn;
- font-style: italic;
- padding-left: 65px;
- margin-top:225px;
-}
-
-.footer-button {
- position:absolute;
- bottom:5%;
 }
 
 .three {
@@ -454,19 +357,13 @@ li{
  background-color:#d27c49;
  display:inline-block;
  text-align: center;
+ height:100%;
 }
 
 .contacttext{
  display: inline-block;
  height:50%;
  width:500px;
-}
-
-.footer {
- position:relative;
- bottom:0;
- background-color: black;
- height: 50%;
 }
 
 .ilustmain{
@@ -511,4 +408,86 @@ li{
  text-transform: uppercase;
  font-family: Montserrat;
  font-weight: 400;
+ cursor:pointer;
+ border:0;
+ outline: 0;
+}
+
+.buttonform:hover {
+ background-color: #964973;
+}
+
+.title-clients {
+ color:#0f1230;
+ font-family: Volkohn;
+ font-style: italic;
+ font-size: 16px;
+ padding-left: 6.5%;
+ padding-top: 9%;
+ width: 6%;
+ float: left;
+}
+
+.clients{
+ height:75%;
+ background-color: #ededed;
+ margin:0 auto;
+}
+
+.footer{
+ height:25%;
+ background-color: black;
+}
+
+.footercontent{
+ float:left;
+ text-align:left;
+ color:white;
+ display:inline-block;
+ margin:50px;
+ width:200px;
+}
+
+.footertitle{
+ color:white;
+ font-size: 15px;
+ text-transform: uppercase;
+ font-weight: 700;
+}
+
+.footerrights{
+ color:white;
+ font-size:12px;
+ font-family:'Volkhov';
+}
+
+.footertext{
+ font-family:'Nunito';
+ color:white;
+ font-size: 12px;
+}
+
+.client-container{
+ padding-left: 24%;
+ padding-top: 11%;
+}
+
+.general-client {
+ margin-right: 20px;
+}
+
+.cliente1:hover {
+ content: url('../img/cliente1.png');
+}
+
+.cliente2:hover {
+ content: url('../img/cliente2.png');
+}
+
+.cliente3:hover {
+ content: url('../img/cliente3.png');
+}
+
+.cliente4:hover {
+ content: url('../img/cliente4.png');
 }

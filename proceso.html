@@ -18,20 +18,46 @@
   <div class="menu-container">
    <p>Menú</p>
    <ul>
-    <li><a href="daniel.html #main"	onclick="toggleMenu()"><span>Inicio</span></a></li>
-    <li><a href="daniel.html #services" onclick="toggleMenu()"><span>Servicios</span></a></li>
-    <li><a href="#" onclick="toggleMenu()"><span>Proceso</span></a></li>
-    <li><a href="daniel.html #us" onclick="toggleMenu()"><span>Nosotros</span></a></li>
-    <li><a href="daniel.html #clients" onclick="toggleMenu()"><span>Clientes</span></a></li>
-    <li><a href="#" onclick="toggleMenu()"><span>Contacto</span></a></li>
+    <li><a href="#main"	onclick="toggleMenu()"><span>Inicio</span></a></li>
+    <li><a href="#services" onclick="toggleMenu()"><span>Servicios</span></a></li>
+    <li><a href="proceso.html" onclick="toggleMenu()"><span>Proceso</span></a></li>
+    <li><a href="nosotros.html" onclick="toggleMenu()"><span>Nosotros</span></a></li>
+    <li><a href="#clients" onclick="toggleMenu()"><span>Clientes</span></a></li>
    </ul>
   </div>
  </div>
 
- <div>
-  <a href="daniel.html #main"><img class="logo" src="img/bitlab.png"></a>
-  <img class="menu" src="img/menu.png" onclick="toggleMenu()">
- </div>
+
+ <!--contacto-->
+ <div class="slidebarContact">
+  <a class="closeContact" onclick="toggleContact()">Cerrar</a>
+  <div class="contact-container">
+   <h3>Contáctanos</3>
+    <h4>say hello!</h4>
+    <p style="margin-top:-35px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <h3 style="font-size:14px;">info@bitlab.mx</h3>
+    <form action="#">
+     <div class="minform">
+     Nombre: <input type="text"></br>
+     Empresa: <input type="text"></br>
+     E-Mail: <input type="text"></br>
+     Mensaje: <input type="text"></br>
+    </div>
+     <input type="submit" class="buttonform">
+    </form>
+   </div>
+  </div>
+  <!--Contacto-->
+
+
+
+  <div>
+   <a href="daniel.html #main"><img class="logo" src="img/bitlab.png"></a>
+   <img class="menu" src="img/menu.png" onclick="toggleMenu()">
+   <div class="contactBtn" onclick="toggleContact()">Contacto</div>
+  </div>
+
+
  <!--Main-->
  <div id="fullpage">
   <div class="section mainproceso">
@@ -85,26 +111,23 @@
  <h4>Hola</h4>
  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada dictum mauris, sit amet porttitor nisl dignissim eget. Integer ac felis volutpat, pharetra risus quis, posuere orci. Integer ac felis volutpat, pharetra risus quis, posuere orci.</p>
 </div>
- <div class="footer">
-  <div class="three">
-   <p class="footer-conocenos">Conócenos</p>
-   <p class="footer-adress"> Piedras Negras #229,
-    Col. Mitras Centro C.P. 64650</p>
-    <p class="footer-tel">+52 (81) 21392290</p>
-    <p class="footer-hola">Dinos Hola!</p>
-    <p class="footer-web">jobs@bitlab.mx</p>
-   </div>
-
-   <div class="three">
-    <p class="footer-rights">2015 - BITLAB - All rights reserved</p>
-   </div>
-
-   <div class="three" style="height: 100%">
-    <a href="https://www.facebook.com/" class="footer-button" target="_blank"><img src="img/facebook.png"></a>
-   </div>
-
-   <div class="three">
-   </div>
+<div class="footer">
+ <div class="footercontent">
+  <div class="footertitle">conócenos</div>
+  <div class="footertext">Piedras Negras #229,</br>Col. Mitras Centro C.P. 64650</br>+52 (81) 21392290
+  </div>
+ </div>
+ <div class="footercontent">
+  <div class="footertitle">Say hello to us</div>
+  <div class="footertext">jobs@bitlab.mx</div>
+ </div>
+ <div class="footercontent">
+  <div class="footerrights">2015 - BITLAB - All rights reserved</div>
+ </div>
+ <div class="footercontent">
+  <div class="footertitle"><a href="#"><img src="img/facebook.png"/></a></div>
+ </div>
+</div>
   </div>
 
  </div>

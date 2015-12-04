@@ -2,6 +2,7 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		anchors:['main', 'services', 'process', 'us', 'clients', 'procesocontent', 'nosotroscontent'],
 		scrollOverflow: true,
+  scrollingSpeed: 1000,
 		afterLoad: function(anchorLink, index){
             changeLogo(index);
         }
