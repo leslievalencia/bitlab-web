@@ -1,5 +1,5 @@
 body {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .section.main h1 {
@@ -23,6 +23,17 @@ body {
 	position:absolute;
 }
 
+h2{
+ font-family:Volkohn;
+ font-size:16px;
+ color:white;
+ font-weight: 400;
+ font-style: Italic;
+ margin-left:80px;
+ margin-top:-150px;
+ position:absolute;
+  }
+
 #content h3 {
 	font-family:Volkohn;
 	font-size:18px;
@@ -33,6 +44,15 @@ body {
 }
 
 #content h4 {
+ font-family:Volkohn;
+ font-size:18px;
+ color:#0f1230;
+ font-weight: 300;
+ font-style: italic;
+ margin-bottom:-35px;
+}
+
+h4 {
 	font-family: Montserrat;
 	font-weight: 700;
 	color: #0f1230;
@@ -49,12 +69,21 @@ body {
 	margin-bottom:-55px;
 }
 
+h5{
+ font-family:Volkohn;
+ font-size:18px;
+ color:white;
+ font-weight: 300;
+ font-style: italic;
+ margin-bottom:-55px;
+}
+
 h6 {
-	font-family: Montserrat;
-	font-weight: 700;
-	color: white;
-	font-size: 30px;
-	text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 700;
+ color: white;
+ font-size: 30px;
+ text-transform: uppercase;
 }
 
 .section.mainnosotros h1{
@@ -68,38 +97,38 @@ h6 {
 }
 
 .conocenos {
-	font-family: Montserrat;
-	font-weight: 700;
-	color: white;
-	font-size: 30px;
-	margin-top: 55px;
+ font-family: Montserrat;
+ font-weight: 700;
+ color: white;
+ font-size: 30px;
+ margin-top: 55px;
 }
 
 .section.main {
-	background-image: url('../assets/images/main_background.png');
+ background-image: url('../assets/images/main_background.png');
 }
 .logo {
-	position: fixed;
-	top: 25px;
-	left: 40px;
-	z-index:1;
+ position: fixed;
+ top: 25px;
+ left: 40px;
+ z-index:1;
 }
 .menu {
-	position: fixed;
-	padding: 20px;
-	top: 20px;
-	right: 20px;
-	z-index:1;
-	cursor: pointer;
+ position: fixed;
+ padding: 20px;
+ top: 20px;
+ right: 20px;
+ z-index:1;
+ cursor: pointer;
 }
 .arrow {
-	position: absolute;
-	bottom: 40px;
-	right: 50%;
+ position: absolute;
+ bottom: 40px;
+ right: 50%;
 }
 
 .section.services {
-	background-color: #0f1230;
+ background-color: #0f1230;
 }
 
 .text h1 {
@@ -118,7 +147,6 @@ h6 {
 	color: #0f1230;
 	font-size: 30px;
 	text-transform: uppercase;
-	margin-top: -36px;
 }
 
 .text h3 {
@@ -131,92 +159,75 @@ h6 {
 }
 
 @media screen and (max-width: 480px) {
-	.section h1 {
-		width: 70%;
-		font-size: 30px;
-	}
+ .section h1 {
+  width: 70%;
+  font-size: 30px;
+ }
 }
 .slidebar {
-    background: #3e0b36;
-    width: 600px;
-    position: absolute;
-    right: 0;
-    z-index: 1;
+ background: #3e0b36;
+ width: 600px;
+ position: absolute;
+ right: 0;
+ z-index: 1;
 }
 
 .box{
-	width:200px;
-	height:300px;
-	margin-left:58px;
+ width:200px;
+ height:300px;
+ margin-left:58px;
 }
 
 .servicios{
-	position:absolute;
-	list-style-type:square;
-	color:white;
-	left:0;
-	margin-left:55px;
+ position:absolute;
+ list-style-type:square;
+ color:white;
+ left:0;
+ margin-left:55px;
 }
 
 .section.proceso{
-	background-color: #ededed;
+ background-color: #ededed;
 }
 
 table{
-	margin-right:auto;
-	margin-left:auto;
+ margin-right:auto;
+ margin-left:auto;
 }
 
 #content{
-	height:500px;
-	width:400px;
-	text-align: center;
+ height:500px;
+ width:400px;
+ text-align: center;
 }
 
-.ilust{
-	height:350px;
-	width:auto;
-	display:inline-block;
-}
-
-.pasos{
-	margin-left: 0;
-	margin-right: 0;
-	background-color:white;
-}
-
-.contentpasos{
-	text-align: center;
-	width:30%;
-	display: inline-block;
-}
 
 .slidebar a, .slidebar p {
-	color: white;
+ color: white;
 }
 .slidebar ul {
-	list-style-type: none;
-	padding-left: 100px;
+ list-style-type: none;
+ padding-left: 100px;
 }
 .slidebar p {
-	padding-left: 100px;
-	margin-top: 0;
+ padding-left: 100px;
+ margin-top: 0;
 }
 .slidebar a {
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 27px;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 27px;
 }
 .slidebar a:hover {
-    color: #c95854;
+ color: #c95854;
 }
 
 
 .menu-container p {
-	font-family: Volkohn;
-	font-style: italic;
-	color: #c95854;
-	font-size: 16px;
+ font-family: Volkohn;
+ font-style: italic;
+ color: #c95854;
+ font-size: 16px;
 }
 
 
@@ -226,28 +237,28 @@ table{
 }
 
 .button {
-
-	text-decoration: none;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#7f345d;
-	width:80px;
-	padding:15px;
-	border-radius:5px;
-	text-align:center;
-	color:white;
-	font-size:11px;
-	text-transform: uppercase;
-	font-family: Montserrat;
-	font-weight: 400;
+ text-decoration: none;
+ margin-left:auto;
+ margin-right:auto;
+ background-color:#7f345d;
+ width:80px;
+ padding:15px;
+ border-radius:5px;
+ text-align:center;
+ color:white;
+ font-size:11px;
+ text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 400;
+ cursor:pointer;
 }
 
 a {
-	text-decoration:none;
+ text-decoration:none;
 }
 
 .button:hover {
-	background-color: #964973;
+ background-color: #964973;
 }
 
 .nosotros {
@@ -257,170 +268,279 @@ a {
 }
 
 .buttonwhite {
-	margin-left:auto;
-	margin-right:auto;
-	color:white;
-	border: 2px solid white;
-	border-radius:5px;
-	font-size:11px;
-	text-transform: uppercase;
-	font-family: Montserrat;
-	font-weight: 400;
-	padding:15px;
-	width:80px;
+ margin-left:auto;
+ margin-right:auto;
+ color:white;
+ border: 2px solid white;
+ border-radius:5px;
+ font-size:11px;
+ text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 400;
+ padding:15px;
+ width:80px;
+ cursor:pointer;
 }
 
 .buttonwhite:hover {
-	color: #d27c49;
-	border-color: #d27c49;
+ color: #d27c49;
+ border-color: #d27c49;
 }
 
-.title-clients {
-	color:#0f1230;
-	font-family: Volkohn;
-	font-style: italic;
-	font-size: 16px;
-	padding-left: 6.5%;
-	padding-top: 9%;
-	width: 6%;
-	float: left;
-}
-
-.client-container{
-	padding-left: 24%;
-	padding-top: 11%;
-}
-
-.cliente1:hover {
-    content: url('../img/cliente1.png');
-}
-
-.cliente2:hover {
-    content: url('../img/cliente2.png');
-}
-
-.cliente3:hover {
-    content: url('../img/cliente3.png');
-}
-
-.cliente4:hover {
-    content: url('../img/cliente4.png');
-}
-
-.general-client {
-	margin-right: 20px;
-
-}
-.clients .clients {
-	background-color: #ededed;
-	height: 60%;
-}
-
-.clients .footer {
-	background-color: black;
-	height: 40%;
-}
 
 li{
-	font-size:11px;
-	text-transform: uppercase;
-	line-height: 30px
+ font-size:11px;
+ text-transform: uppercase;
+ line-height: 30px
 }
 
 .section.mainproceso{
-	background-image: url('../img/proceso-img.png');
+ background-image: url('../img/proceso-img.png');
 }
 
 .section.mainnosotros{
-	background-image: url('../img/nosotroscontent-img.png');
+ background-image: url('../img/nosotroscontent-img.png');
 }
 
 .center {
-	width:30%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+ width:30%;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .section.procesocontent {
-	background-color: #ededed;
-	text-align:center;
-}
-
-
-.footer-conocenos {
-	text-transform: uppercase;
-	color: white;
-	font-size: 25px;
-	margin: 0px;
-	padding-top: 30px;
-	padding-left: 40px;
-}
-
-.footer-adress {
-	color: white;
-	font-family: Nunito;
-	font-style: light;
-	width: 70%;
-	padding-left: 40px;
-}
-
-.footer-tel {
-	color: white;
-	font-family: Nunito;
-	font-style: light;
-	padding-left: 40px;
-}
-
-.footer-hola {
-	text-transform: uppercase;
-	color: white;
-	font-size: 25px;
-	margin: 0px;
-	padding-top: 5px;
-	padding-left: 40px;
-}
-
-.footer-web {
-	color: white;
-	font-family: Nunito;
-	font-style: light;
-	padding-left: 40px;
-}
-
-.footer-rights {
-	color: white;
-	font-family: Volkohn;
-	font-style: italic;
-	padding-left: 65px;
-	margin-top:225px;
-}
-
-.footer-button {
-	margin-top: 1000px;
+ background-color: #ededed;
+ text-align:center;
 }
 
 .three {
-	width: 33.33%;
-	float: left;
+ width: 33.33%;
+ float: left;
 }
 
 .inline{
-	float:left;
-	display:inline-block;
+ float:left;
+ display:inline-block;
 }
 
+.slidebarContact {
+ background: #ededed ;
+ width: 600px;
+ position: absolute;
+ right: 0;
+ z-index: 3;
+}
+
+.contactBtn{
+ right: 0;
+ display: none;
+ position:absolute;
+ color:white;
+ z-index: 2;
+ text-transform: uppercase;
+ font-size: 13px;
+ top:50%;
+ transform: rotate(90deg) translateY(50%);
+ cursor: pointer;
+}
+
+.contact-container{
+ text-align: center;
+}
+
+.contact-container {
+ font-family: Nunito;
+ font-weight: 300;
+ color: #0f1230;
+ font-size: 16x;
+ text-align: center;
+ width:70%;
+ margin: 0 auto;
+}
+
+.contact {
+ position: fixed;
+ padding: 20px;
+ top: 20px;
+ right: 20px;
+ z-index:1;
+ cursor: pointer;
+}
+
+.slidebarContact a:hover {
+ color: #c95854;
+}
+
+.closeContact{
+ position:absolute;
+ font-size: 14px;
+ text-transform: uppercase;
+ color:#0f1230;
+ right:30px;
+ top:40px;
+ cursor:pointer;
+}
+
+.pasos{
+ width:100%;
+ background-color:white;
+ text-align:center;
+ height:auto;
+}
+
+.ilust{
+ margin:50px;
+ width:20%;
+ display:inline-block;
+ vertical-align: middle;
+}
+
+.ilust img{
+ width:100%;
+ height:auto;
+}
+
+.contentpasos{
+ margin:50px;
+ vertical-align: middle;
+ color:#0f1230;
+ width:400px;
+ display:inline-block;
+ text-align: left;
+ left:0;
+}
+
+.contentpasos h1{
+ text-align: left;
+ margin:0;
+ margin-bottom:-50px;
+ color:#0f1230;
+}
+
+.ilustmain{
+ margin:50px;
+ width:300px;
+ display:inline-block;
+ vertical-align: middle;
+}
+
+.minform{
+ font-family: 'Montserrat';
+ font-size:11px;
+ color:#999999;
+ margin-top:60px;
+ text-align:right;
+ text-transform: uppercase;
+}
+
+.minform input{
+ border-style:none;
+ background-color:#d1d1d1;
+ margin:20px;
+ height:20px;
+ width:70%;
+ border-radius: 5px;
+ padding:5px;
+ font-family:'Nunito'
+}
+
+.buttonform {
+ text-decoration: none;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:20px;
+ background-color:#7f345d;
+ width:100px;
+ padding:15px;
+ border-radius:5px;
+ text-align:center;
+ color:white;
+ font-size:11px;
+ text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 400;
+ cursor:pointer;
+ border:0;
+ outline: 0;
+}
+
+.buttonform:hover {
+ background-color: #964973;
+}
+
+.title-clients {
+ color:#0f1230;
+ font-family: Volkohn;
+ font-style: italic;
+ font-size: 16px;
+ padding-left: 6.5%;
+ padding-top: 9%;
+ width: 6%;
+ float: left;
+}
+
+.clients{
+ height:75%;
+ background-color: #ededed;
+ margin:0 auto;
+}
+
+.footer{
+ height:25%;
+ background-color: black;
+}
+
+.footercontent{
+ float:left;
+ text-align:left;
+ color:white;
+ display:inline-block;
+ margin:50px;
+ width:200px;
+}
+
+.footertitle{
+ color:white;
+ font-size: 15px;
+ text-transform: uppercase;
+ font-weight: 700;
+}
+
+.footerrights{
+ color:white;
+ font-size:12px;
+ font-family:'Volkhov';
+}
+
+.footertext{
+ font-family:'Nunito';
+ color:white;
+ font-size: 12px;
+}
+
+.footertext a{
+ text-decoration: none;
+ color:#c95854;
+}
+
+.client-container{
+ padding-left: 24%;
+ padding-top: 11%;
+}
+
+.general-client {
+ margin-right: 20px;
+}
 .row {
 	height: 480px;
 	display: inline-block;
-	margin: 0;
 }
 
 .row .image {
 	width: 60%;
 	height: 100%;
 	background-size: cover;
-	float: left;
 	display: inline-block;
 }
 
@@ -433,23 +553,74 @@ li{
 }
 
 .row .text {
-	width: 40%;
-	float: left;
+	width: 39%;
+	display: inline-block;
 }
 
-/*.row .text h1 {
+.row .text h1 {
 	text-align: left;
-	margin: 0;
-	margin-bottom:-50px;
 	color:#0f1230 ;
-	margin-top: 0px;
 	font-family: Montserrat;
+	margin-bottom: -10px;
 }
 
-.row .text h3 {
-	margin-top: -34px;
+
+.cliente1:hover {
+ content: url('../img/cliente1.png');
 }
 
-.row .text div {
-	margin-top: 44px;
-}*/
+.cliente2:hover {
+ content: url('../img/cliente2.png');
+}
+
+.cliente3:hover {
+ content: url('../img/cliente3.png');
+}
+
+.cliente4:hover {
+ content: url('../img/cliente4.png');
+}
+
+.fullcontact{
+ height:75%;
+ background-color: #d27c49;
+ margin:0 auto;
+ text-align: center;
+ padding-top:50px;
+}
+
+.textform{
+ width:500px;
+ text-align:center;
+}
+
+.container-fullcontact{
+ position:inherit;
+ width:40%;
+ text-align:center;
+ display:inline-block;
+ vertical-align: middle;
+}
+
+.fullform{
+ font-family: 'Montserrat';
+ font-size:11px;
+ color:#a85a2b;
+ margin-top:60px;
+ display:inline-block;
+ text-align:right;
+ text-transform: uppercase;
+}
+
+.fullform input{
+ border-style:none;
+ width:500px;
+ display: inline-block;
+ background-color:#bb6938;
+ margin:5px;
+ height:40px;
+ border-radius: 5px;
+ padding:5px;
+ font-family:'Nunito'
+}
+
