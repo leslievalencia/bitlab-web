@@ -499,6 +499,11 @@ li{
  font-size: 12px;
 }
 
+.footertext a{
+ text-decoration: none;
+ color:#c95854;
+}
+
 .client-container{
  padding-left: 24%;
  padding-top: 11%;
@@ -564,48 +569,46 @@ li{
  content: url('../img/cliente4.png');
 }
 
-.contactfull{
+.fullcontact{
+ height:75%;
  background-color: #d27c49;
+ margin:0 auto;
+ text-align: center;
+ padding-top:50px;
 }
 
-.contactleft{
- width:50%;
- display: inline-block;
+.textform{
+ width:500px;
+ text-align:center;
+}
+
+.container-fullcontact{
+ position:inherit;
+ width:40%;
+ text-align:center;
+ display:inline-block;
+ vertical-align: middle;
+}
+
+.fullform{
+ font-family: 'Montserrat';
+ font-size:11px;
+ color:#a85a2b;
+ margin-top:60px;
+ display:inline-block;
+ text-align:right;
+ text-transform: uppercase;
 }
 
 .fullform input{
  border-style:none;
- width:auto;
+ width:500px;
  display: inline-block;
- background-color:#d1d1d1;
- margin:20px;
- height:20px;
+ background-color:#bb6938;
+ margin:5px;
+ height:40px;
  border-radius: 5px;
  padding:5px;
  font-family:'Nunito'
-}
-
-.buttonfullform {
- text-decoration: none;
- margin-left:auto;
- margin-right:auto;
- margin-top:20px;
- background-color:#7f345d;
- width:100px;
- padding:15px;
- border-radius:5px;
- text-align:center;
- color:white;
- font-size:11px;
- text-transform: uppercase;
- font-family: Montserrat;
- font-weight: 400;
- cursor:pointer;
- border:0;
- outline: 0;
-}
-
-.buttonfullform:hover {
- background-color: #964973;
 }
 
