@@ -12,6 +12,27 @@ h1{
  text-align: center;
 }
 
+.section.main h1 {
+	color: white;
+	font-size: 55px;
+	width: 50%;
+	text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+	text-align: center;
+}
+
+.section.services h2 {
+	font-family:Volkohn;
+	font-size:16px;
+	color:white;
+	font-weight: 400;
+	font-style: Italic;
+	margin-left:80px;
+	margin-top:-150px;
+	position:absolute;
+}
+
 h2{
  font-family:Volkohn;
  font-size:16px;
@@ -21,9 +42,18 @@ h2{
  margin-left:80px;
  margin-top:-150px;
  position:absolute;
+  }
+
+#content h3 {
+	font-family:Volkohn;
+	font-size:18px;
+	color:#0f1230;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom:-35px;
 }
 
-h3 {
+#content h4 {
  font-family:Volkohn;
  font-size:18px;
  color:#0f1230;
@@ -38,6 +68,15 @@ h4{
  color: #0f1230;
  font-size: 30px;
  text-transform: uppercase;
+}
+
+.section.nosotros h5 {
+	font-family:Volkohn;
+	font-size:18px;
+	color:white;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom:-55px;
 }
 
 h5{
@@ -55,6 +94,16 @@ h6 {
  color: white;
  font-size: 30px;
  text-transform: uppercase;
+}
+
+.section.mainnosotros h1{
+	color: white;
+	font-size: 55px;
+	width: 50%;
+	text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+	text-align: center;
 }
 
 .conocenos {
@@ -90,6 +139,33 @@ h6 {
 
 .section.services {
  background-color: #0f1230;
+}
+
+.text h1 {
+	color: black;
+	font-size: 55px;
+	width: 50%;
+	text-transform: uppercase;
+    margin-right: auto;
+	font-family: Montserrat;
+}
+
+
+.text h4 {
+	font-family: Montserrat;
+	font-weight: 700;
+	color: #0f1230;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.text h3 {
+	font-family:Volkohn;
+	font-size:18px;
+	color:#0f1230;
+	font-weight: 300;
+	font-style: italic;
+	margin-top:-25px;
 }
 
 @media screen and (max-width: 480px) {
@@ -195,10 +271,10 @@ a {
  background-color: #964973;
 }
 
-.nosotros{
- background-image: url('../img/nosotros-img.png');
- height:500px;
- text-align:center;
+.nosotros {
+	background-image: url('../img/nosotros-img.png');
+	height:500px;
+	text-align:center;
 }
 
 .buttonwhite {
@@ -468,13 +544,14 @@ li{
 }
 .row {
 	height: 480px;
+	display: inline-block;
 }
 
 .row .image {
 	width: 60%;
 	height: 100%;
 	background-size: cover;
-	float: left;
+	display: inline-block;
 }
 
 .row:nth-of-type(1) .image {
@@ -486,26 +563,17 @@ li{
 }
 
 .row .text {
-	width: 40%;
-	float: left;
+	width: 39%;
+	display: inline-block;
 }
 
 .row .text h1 {
 	text-align: left;
-	margin: 0;
-	margin-bottom:-50px;
 	color:#0f1230 ;
-	margin-top: 0px;
 	font-family: Montserrat;
+	margin-bottom: -10px;
 }
 
-.row .text h3 {
-	margin-top: -34px;
-}
-
-.row .text div {
-	margin-top: 44px;
-}
 
 .cliente1:hover {
  content: url('../img/cliente1.png');
