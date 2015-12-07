@@ -2,27 +2,6 @@ body {
  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-<<<<<<< HEAD
-h1 {
-	color: white;
-	font-size: 55px;
-	width: 50%;
-	text-transform: uppercase;
-    margin-right: auto;
-    margin-left: auto;
-	text-align: center;
-}
-
-h2 {
-	font-family:Volkohn;
-	font-size:16px;
-	color:white;
-	font-weight: 400;
-	font-style: Italic;
-	margin-left:80px;
-	margin-top:-150px;
-	position:absolute;
-=======
 h1{
  color: white;
  font-size: 55px;
@@ -42,7 +21,6 @@ h2{
  margin-left:80px;
  margin-top:-150px;
  position:absolute;
->>>>>>> origin/master
 }
 
 h3 {
@@ -54,23 +32,6 @@ h3 {
  margin-bottom:-35px;
 }
 
-<<<<<<< HEAD
-h4 {
-	font-family: Montserrat;
-	font-weight: 700;
-	color: #0f1230;
-	font-size: 30px;
-	text-transform: uppercase;
-}
-
-h5 {
-	font-family:Volkohn;
-	font-size:18px;
-	color:white;
-	font-weight: 300;
-	font-style: italic;
-	margin-bottom:-55px;
-=======
 h4{
  font-family: Montserrat;
  font-weight: 700;
@@ -86,7 +47,6 @@ h5{
  font-weight: 300;
  font-style: italic;
  margin-bottom:-55px;
->>>>>>> origin/master
 }
 
 h6 {
@@ -206,14 +166,8 @@ table{
 
 
 .text {
-<<<<<<< HEAD
-	font-family: Nunito;
-	font-size: 16px;
-	margin-top: 43px;
-=======
  font-family: Nunito;
  font-size: 16px;
->>>>>>> origin/master
 }
 
 .button {
@@ -612,3 +566,32 @@ li{
  font-family:'Nunito'
 }
 
+/*Servicios*/
+
+#listaDeServicios{
+ color:white;
+ text-transform: uppercase;
+ font-size:11px;
+ cursor:pointer;
+ line-height: 20px;
+ display:inline-block;
+}
+
+#imgServicios{
+ margin-left:200px;
+ color:red;
+ display:inline-block;
+}
+
+#contenidoServicios{
+ color:white;
+ font-family: 'Nunito';
+ font-size:13px;
+ display:inline-block;
+ width:200px;
+ margin-left:200px;
+}
+
+#listaDeServicios:focus{
+color:red;
+}
