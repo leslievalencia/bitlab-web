@@ -4,7 +4,7 @@ $(document).ready(function() {
   scrollOverflow: true,
   scrollingSpeed: 700,
   afterLoad: function(anchorLink, index){
-   changeLogo(index);
+   changeColor(index);
   }
  });
  resizeSlidebarContact();
@@ -28,12 +28,30 @@ function toggleMenu( duration ) {
  $('.slidebar').animate({ right: movement }, duration);
  $('.menu').attr("src", imageUrl);
 }
+var file_config = {
+ "daniel.html": [3, 5],
+ "proceso.html": [2, 3],
+ "nosotros.html": [2, 5]
+};
 
-function changeLogo( index ) {
- if (index == 3 || index == 5) {
+function posicion() {
+ var url = location.href.split('/');
+ var file = url[url.length -1].split('#')[0];
+ console.log(file);
+ return file_config[file];
+}
+
+
+function changeColor( index ) {
+ var sections = posicion() || [];
+ if (sections.indexOf(index) >= 0) {
   $('.logo').attr('src', 'img/bitlab_obscuro.png');
+  $('.menu').attr('src', 'img/menu_obscuro.png');
+  $('.contactBtn').css('color', 'black');
  } else {
   $('.logo').attr('src', 'img/bitlab.png');
+  $('.menu').attr('src', 'img/menu.png');
+  $('.contactBtn').css('color', 'white');
  }
 }
 

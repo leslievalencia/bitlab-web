@@ -5,6 +5,12 @@ body {
 h1{
  color: white;
  font-size: 55px;
+ text-transform: uppercase;
+}
+
+.section.main h1 {
+ color: white;
+ font-size: 55px;
  width: 50%;
  text-transform: uppercase;
  margin-right: auto;
@@ -12,25 +18,25 @@ h1{
  text-align: center;
 }
 
-.section.main h1 {
-	color: white;
-	font-size: 55px;
-	width: 50%;
-	text-transform: uppercase;
-    margin-right: auto;
-    margin-left: auto;
-	text-align: center;
+.section.mainproceso h1 {
+ color: white;
+ font-size: 55px;
+ width: 50%;
+ text-transform: uppercase;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
 }
 
 .section.services h2 {
-	font-family:Volkohn;
-	font-size:16px;
-	color:white;
-	font-weight: 400;
-	font-style: Italic;
-	margin-left:80px;
-	margin-top:-150px;
-	position:absolute;
+ font-family:Volkohn;
+ font-size:16px;
+ color:white;
+ font-weight: 400;
+ font-style: Italic;
+ margin-left:80px;
+ margin-top:-150px;
+ position:absolute;
 }
 
 h2{
@@ -42,24 +48,33 @@ h2{
  margin-left:80px;
  margin-top:-150px;
  position:absolute;
-  }
-
-#content h3 {
-	font-family:Volkohn;
-	font-size:18px;
-	color:#0f1230;
-	font-weight: 300;
-	font-style: italic;
-	margin-bottom:-35px;
 }
 
-#content h4 {
+h3 {
  font-family:Volkohn;
  font-size:18px;
  color:#0f1230;
  font-weight: 300;
  font-style: italic;
- margin-bottom:-35px;
+}
+
+
+#content h3 {
+ font-family:Volkohn;
+ font-size:18px;
+ color:#0f1230;
+ font-weight: 300;
+ font-style: italic;
+ margin:10px;
+}
+
+#content h4 {
+ font-family: Montserrat;
+ font-weight: 700;
+ color: #0f1230;
+ font-size: 24px;
+ text-transform: uppercase;
+ margin:0;
 }
 
 h4{
@@ -71,12 +86,12 @@ h4{
 }
 
 .section.nosotros h5 {
-	font-family:Volkohn;
-	font-size:18px;
-	color:white;
-	font-weight: 300;
-	font-style: italic;
-	margin-bottom:-55px;
+ font-family:Volkohn;
+ font-size:18px;
+ color:white;
+ font-weight: 300;
+ font-style: italic;
+ margin-bottom:-55px;
 }
 
 h5{
@@ -97,13 +112,13 @@ h6 {
 }
 
 .section.mainnosotros h1{
-	color: white;
-	font-size: 55px;
-	width: 50%;
-	text-transform: uppercase;
-    margin-right: auto;
-    margin-left: auto;
-	text-align: center;
+ color: white;
+ font-size: 55px;
+ width: 50%;
+ text-transform: uppercase;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
 }
 
 .conocenos {
@@ -142,30 +157,29 @@ h6 {
 }
 
 .text h1 {
-	color: black;
-	font-size: 55px;
-	width: 50%;
-	text-transform: uppercase;
-    margin-right: auto;
-	font-family: Montserrat;
+ color: black;
+ font-size: 55px;
+ text-transform: uppercase;
+ font-family: Montserrat;
+ margin:0;
 }
 
 
 .text h4 {
-	font-family: Montserrat;
-	font-weight: 700;
-	color: #0f1230;
-	font-size: 30px;
-	text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 700;
+ color: #0f1230;
+ font-size: 30px;
+ text-transform: uppercase;
 }
 
 .text h3 {
-	font-family:Volkohn;
-	font-size:18px;
-	color:#0f1230;
-	font-weight: 300;
-	font-style: italic;
-	margin-top:-25px;
+ font-family:Volkohn;
+ font-size:18px;
+ color:#0f1230;
+ font-weight: 300;
+ font-style: italic;
+ margin-top:-25px;
 }
 
 @media screen and (max-width: 480px) {
@@ -198,6 +212,7 @@ h6 {
 
 .section.proceso{
  background-color: #ededed;
+ text-align:center;
 }
 
 table{
@@ -242,8 +257,35 @@ table{
 
 
 .text {
- font-family: Nunito;
+ font-family: 'Nunito';
  font-size: 16px;
+}
+
+.textnosotros {
+ padding:50px;
+ vertical-align: middle;
+ font-family: 'Nunito';
+ font-size: 16px;
+}
+
+.textnosotros h1 {
+ font-family: 'Montserrat';
+ margin-bottom:-50px;
+ color:black;
+ font-size: 55px;
+}
+
+.textnosotros h4 {
+ font-family: 'Montserrat';
+ margin-bottom:0px;
+ color:black;
+ font-size: 30px;
+}
+
+.textproceso {
+ font-family: 'Nunito';
+ font-size: 16px;
+ margin-top:-33px;
 }
 
 .button {
@@ -272,9 +314,9 @@ a {
 }
 
 .nosotros {
-	background-image: url('../img/nosotros-img.png');
-	height:500px;
-	text-align:center;
+ background-image: url('../img/nosotros-img.png');
+ height:500px;
+ text-align:center;
 }
 
 .buttonwhite {
@@ -355,8 +397,9 @@ li{
  cursor: pointer;
 }
 
-.contact-container{
+.contact-container h3 {
  text-align: center;
+ margin-bottom:-30px;
 }
 
 .contact-container {
@@ -400,19 +443,23 @@ li{
 }
 
 .ilust{
- margin:50px;
- width:20%;
+ width:350px;
  display:inline-block;
- vertical-align: middle;
 }
 
 .ilust img{
  width:100%;
  height:auto;
+ vertical-align: middle;
+}
+
+.pasoscontent{
+ margin-top:150px;
+ margin-bottom:80px;
 }
 
 .contentpasos{
- margin:50px;
+ margin:150px;
  vertical-align: middle;
  color:#0f1230;
  width:400px;
@@ -488,6 +535,7 @@ li{
  padding-top: 9%;
  width: 6%;
  float: left;
+ position:absolute;
 }
 
 .clients{
@@ -499,6 +547,7 @@ li{
 .footer{
  height:25%;
  background-color: black;
+ position:relative;
 }
 
 .footercontent{
@@ -535,43 +584,57 @@ li{
 }
 
 .client-container{
- padding-left: 24%;
+ margin:0 auto;
  padding-top: 11%;
+ text-align: center;
 }
 
 .general-client {
  margin-right: 20px;
 }
-.row {
-	height: 480px;
-	display: inline-block;
+
+.row{
+ width:100%;
+ height:500px;
+}
+
+.rowproceso{
+ width:100%;
 }
 
 .row .image {
-	width: 60%;
-	height: 100%;
-	background-size: cover;
-	display: inline-block;
+ float:left;
+ display: inline-block;
+ width: 60%;
+ height: 100%;
+ background-size: cover;
+}
+
+.contenidoTexto{
+ float:left;
+ width:40%;
+ display: inline-block;
+}
+
+.row .text{
+ float:left;
+ color:black;
+}
+
+.row .text h1{
+ margin-bottom:-35px;
 }
 
 .row:nth-of-type(1) .image {
-	background-image: url('../img/img01.png');
+ background-image: url('../img/img01.png');
 }
 
 .row:nth-of-type(2) .image {
-	background-image: url('../img/img02.png');
+ background-image: url('../img/img02.png');
 }
 
-.row .text {
-	width: 39%;
-	display: inline-block;
-}
-
-.row .text h1 {
-	text-align: left;
-	color:#0f1230 ;
-	font-family: Montserrat;
-	margin-bottom: -10px;
+.row:nth-of-type(3) .image {
+ background-image: url('../img/img01.png');
 }
 
 
@@ -601,6 +664,12 @@ li{
 
 .textform{
  width:500px;
+ text-align:center;
+}
+
+.textform h3 {
+margin-bottom:-35px;
+ width:500px
  text-align:center;
 }
 
@@ -661,5 +730,69 @@ li{
 }
 
 #listaDeServicios:focus{
-color:red;
+ color:red;
+}
+
+.people{
+ background-color:#1d3350;
+}
+
+.people h1{
+ font-size:30px;
+}
+
+.container50{
+ vertical-align: middle;
+ text-align:center;
+ position:relative;
+ width:30%;
+ display:inline-block;
+}
+
+
+.rowpeople h1 {
+ margin-top:80px;
+ margin-bottom:80px;
+}
+
+.person h1 {
+ font-size:20px;
+ margin-top:10px;
+ margin-bottom:0;
+}
+
+.person h3 {
+ color:white;
+ font-size:15px;
+ margin:0;
+}
+
+.person .text {
+ margin-top:10px;
+ padding:10px;
+}
+
+.rowpeople {
+ text-align:center;
+ width:80%;
+ margin:0 auto;
+ margin-bottom:80px;
+}
+
+.person {
+ vertical-align: middle;
+ color:white;
+ text-align: center;
+ display:inline-block;
+ margin:20px;
+ width:250px;
+ height:250px;
+}
+
+.container50 .text h3{
+ margin-bottom:-30px;
+}
+
+.procesocontent .center h4{
+ margin:20px;
 }
