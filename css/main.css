@@ -765,10 +765,11 @@ margin-bottom:-35px;
  color:white;
  font-size:15px;
  margin:0;
+ margin-top:10px;
 }
 
 .person .text {
- margin-top:10px;
+ margin-top:0;
  padding:10px;
 }
 
@@ -787,6 +788,12 @@ margin-bottom:-35px;
  margin:20px;
  width:250px;
  height:250px;
+}
+
+.person .unete h1 {
+ font-size:30px;
+ margin-top:25px;
+ margin-bottom:20px;
 }
 
 .container50 .text h3{
