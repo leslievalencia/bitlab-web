@@ -37,7 +37,6 @@ var file_config = {
 function posicion() {
  var url = location.href.split('/');
  var file = url[url.length -1].split('#')[0];
- console.log(file);
  return file_config[file];
 }
 
