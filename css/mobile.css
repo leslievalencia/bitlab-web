@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) {
+@media screen and (max-width:320px) {
 
 body {
  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -12,8 +12,8 @@ h1{
 
 .section.main h1 {
  color: white;
- font-size: 55px;
- width: 50%;
+ font-size: 30px;
+ width: 70%;
  text-transform: uppercase;
  margin-right: auto;
  margin-left: auto;
@@ -390,7 +390,7 @@ li{
  color:white;
  z-index: 2;
  text-transform: uppercase;
- font-size: 13px;
+ font-size: 10px;
  top:50%;
  transform: rotate(90deg) translateY(50%);
  cursor: pointer;
