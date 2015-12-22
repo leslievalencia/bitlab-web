@@ -581,6 +581,9 @@ li{
  color:white;
  font-size:12px;
  font-family:'Volkhov';
+ position:absolute;
+ bottom:75px;
+ right:100px
 }
 
 .footertext{
