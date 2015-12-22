@@ -221,6 +221,7 @@
  .text {
   font-family: 'Nunito';
   font-size: 16px;
+  margin-top:-40px;
  }
  .textnosotros {
   padding: 50px;
@@ -381,6 +382,9 @@
   width: 350px;
   display: inline-block;
  }
+ .ilustindex{
+  width:350px;
+ }
  .stepcontainer{
   display:inline-block;
  }
@@ -389,6 +393,9 @@
  }
  .contentright{
   float:right;
+ }
+ .uscontainer{
+  display: table;
  }
  .ilust img {
   width: 100%;
@@ -539,19 +546,15 @@
   width: 100%;
  }
  .row .image {
-  float: left;
-  display: inline-block;
   width: 60%;
   height: 100%;
   background-size: cover;
  }
  .contenidoTexto {
-  float: left;
   width: 40%;
   display: inline-block;
  }
  .row .text {
-  float: left;
   color: black;
  }
  .row .text h1 {
@@ -693,6 +696,7 @@
   position: relative;
   width: 30%;
   display: inline-block;
+  margin-bottom:10px;
  }
  .rowpeople h1 {
   margin-top: 80px;
