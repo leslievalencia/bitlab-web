@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
  <title>Bitlab</title>
  <meta charset="UTF-8">
@@ -24,11 +25,31 @@
   <div class="menu-container">
    <p>Menú</p>
    <ul>
-    <li><a href="daniel.html#main"	onclick="toggleMenu()"><span>Inicio</span></a></li>
-    <li><a href="daniel.html#services" onclick="toggleMenu()"><span>Servicios</span></a></li>
-    <li><a href="proceso.html" onclick="toggleMenu()"><span>Proceso</span></a></li>
-    <li><a href="nosotros.html" onclick="toggleMenu()"><span>Nosotros</span></a></li>
-    <li><a href="daniel.html#clients" onclick="toggleMenu()"><span>Clientes</span></a></li>
+    <li>
+     <a href="daniel.html#main" onclick="toggleMenu()">
+      <span>Inicio</span>
+     </a>
+    </li>
+    <li>
+     <a href="daniel.html#services" onclick="toggleMenu()">
+      <span>Servicios</span>
+     </a>
+    </li>
+    <li>
+     <a href="proceso.html" onclick="toggleMenu()">
+      <span>Proceso</span>
+     </a>
+    </li>
+    <li>
+     <a href="nosotros.html" onclick="toggleMenu()">
+      <span>Nosotros</span>
+     </a>
+    </li>
+    <li>
+     <a href="daniel.html#clients" onclick="toggleMenu()">
+      <span>Clientes</span>
+     </a>
+    </li>
    </ul>
   </div>
  </div>
@@ -44,10 +65,18 @@
    <h3 style="font-size:14px;">info@bitlab.mx</h3>
    <form action="#">
     <div class="minform">
-     Nombre: <input type="text"></br>
-     Empresa: <input type="text"></br>
-     E-Mail: <input type="text"></br>
-     Mensaje: <input type="text"></br>
+     Nombre:
+     <input type="text">
+     </br>
+     Empresa:
+     <input type="text">
+     </br>
+     E-Mail:
+     <input type="text">
+     </br>
+     Mensaje:
+     <input type="text">
+     </br>
     </div>
     <input type="submit" class="buttonform">
    </form>
@@ -58,7 +87,9 @@
 
 
  <div>
-  <a href="daniel.html#main"><img class="logo" src="img/bitlab.png"></a>
+  <a href="daniel.html#main">
+   <img class="logo" src="img/bitlab.png">
+  </a>
   <img class="menu" src="img/menu.png" onclick="toggleMenu()">
   <div class="contactBtn" onclick="toggleContact()">Contacto</div>
  </div>
@@ -71,7 +102,7 @@
   <div class="section main" data-anchor="main">
    <h1>Lleva tu negocio al siguiente nivel</h1>
    <a href="#services">
-    <img class="arrow" src="img/flecha.png"/>
+    <img class="arrow" src="img/flecha.png" />
    </a>
   </div>
   <!--Servicios-->
@@ -79,14 +110,19 @@
    <p class="title-servicios">Servicios</p>
    <div class="sectionscontainer">
     <div class="listado">
-     <span id="servicio" onclick="show(0)">Desarrollo web</span><br>
-     <span id="servicio" onclick="show(1)">Diseño web</span><br>
-     <span id="servicio" onclick="show(2)">Diseño gráfico</span><br>
-     <span id="servicio" onclick="show(3)">Branding</span><br>
-     <span id="servicio" onclick="show(4)">Social Media</span><br>
+     <span id="servicio" onclick="show(0)">Desarrollo web</span>
+     <br>
+     <span id="servicio" onclick="show(1)">Diseño web</span>
+     <br>
+     <span id="servicio" onclick="show(2)">Diseño gráfico</span>
+     <br>
+     <span id="servicio" onclick="show(3)">Branding</span>
+     <br>
+     <span id="servicio" onclick="show(4)">Social Media</span>
+     <br>
     </div>
 
-    <img class="showimage" src="img/s-desarrollo.png"/>
+    <img class="showimage" src="img/s-desarrollo.png" />
 
     <div class="showcontent">
      <div class="title">01</div>
@@ -98,14 +134,20 @@
   <!--Proceso-->
   <div class="section proceso" data-anchor="process">
    <div class="rowproceso">
-    <div class="container50"><img class="ilust" src="img/Proceso.png"/></div>
+    <div class="container50">
+     <img class="ilustindex" src="img/Proceso.png" />
+    </div>
     <div class="container50">
      <div class="text">
       <h3>Consultoría sin costo ni obligaciones.</h3>
-      <h4> CONOCE NUESTRO<br>PROCESO DE TRABAJO</h4>
-      <p class="textproceso">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada dictum mauris, sit amet porttitor nisl dignissim eget. Integer ac felis volutpat, pharetra risus quis, posuere orci. Suspendisse eleifend, tortor eget convallis tincidunt, mi velit bibendum eros, eget consequat nisl justo sit amet lectus. Sed ornare elementum sapien et luctus. Nam elementum urna in blandit ornare. Suspendisse sed tortor vel lacus ultrices lobortis quis eget quam.</p>
+      <h4> CONOCE NUESTRO
+       <br>PROCESO DE TRABAJO</h4>
+      <p class="textproceso">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada dictum mauris, sit amet porttitor nisl dignissim eget. Integer ac felis volutpat, pharetra risus quis, posuere orci. Suspendisse eleifend, tortor eget convallis tincidunt, mi
+       velit bibendum eros, eget consequat nisl justo sit amet lectus. Sed ornare elementum sapien et luctus. Nam elementum urna in blandit ornare. Suspendisse sed tortor vel lacus ultrices lobortis quis eget quam.</p>
      </div>
-     <a href="proceso.html"><div class="button" style="margin-top:15px;">Saber más</div></a>
+     <a href="proceso.html">
+      <div class="button" style="margin-top:15px;">Saber más</div>
+     </a>
 
     </div>
    </div>
@@ -114,17 +156,19 @@
   <div class="section nosotros" style="color:white" data-anchor="us">
    <h5 style="color:white">Conoce a nuestro equipo de trabajo</h5>
    <p class="conocenos">¿Quiénes somos?</p>
-   <a href="nosotros.html"><div class="buttonwhite">Ver más</div></a>
+   <a href="nosotros.html">
+    <div class="buttonwhite">Ver más</div>
+   </a>
   </div>
   <!--Clientes-->
   <div class="section clients" data-anchor="clients">
    <div class="clients">
     <p class="title-clients">Nuestros clientes</p>
     <div class="client-container">
-     <img class="cliente1 general-client" src='img/cliente1g.png'/>
-     <img class="cliente2 general-client" src='img/cliente2g.png'/>
-     <img class="cliente3 general-client" src='img/cliente3g.png'/>
-     <img class="cliente4 general-client" src='img/cliente4g.png'/>
+     <img class="cliente1 general-client" src='img/cliente1g.png' />
+     <img class="cliente2 general-client" src='img/cliente2g.png' />
+     <img class="cliente3 general-client" src='img/cliente3g.png' />
+     <img class="cliente4 general-client" src='img/cliente4g.png' />
     </div>
    </div>
 
@@ -149,4 +193,5 @@
  </div>
  end
 </body>
+
 </html>
