@@ -12,7 +12,7 @@ h1{
 
 .section.main h1 {
  color: white;
- font-size: 40px;
+ font-size: 38px;
  width: 70%;
  text-transform: uppercase;
  margin-right: auto;
@@ -22,8 +22,8 @@ h1{
 
 .section.mainproceso h1 {
  color: white;
- font-size: 55px;
- width: 50%;
+ font-size: 38px;
+ width: 60%;
  text-transform: uppercase;
  margin-right: auto;
  margin-left: auto;
@@ -89,7 +89,7 @@ h4{
 
 .section.nosotros h5 {
  font-family:Volkohn;
- font-size:18px;
+ font-size:20px;
  color:white;
  font-weight: 300;
  font-style: italic;
@@ -115,7 +115,7 @@ h6 {
 
 .section.mainnosotros h1{
  color: white;
- font-size: 55px;
+ font-size: 40px;
  width: 50%;
  text-transform: uppercase;
  margin-right: auto;
@@ -127,12 +127,14 @@ h6 {
  font-family: Montserrat;
  font-weight: 700;
  color: white;
- font-size: 30px;
+ font-size: 41px;
  margin-top: 55px;
 }
 
 .section.main {
  background-image: url('../assets/images/main_background.png');
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .logo {
@@ -292,12 +294,12 @@ table{
  margin-left:auto;
  margin-right:auto;
  background-color:#7f345d;
- width:80px;
- padding:15px;
+ width:90px;
+ padding:25px;
  border-radius:5px;
  text-align:center;
  color:white;
- font-size:11px;
+ font-size:14px;
  text-transform: uppercase;
  font-family: Montserrat;
  font-weight: 400;
@@ -324,12 +326,12 @@ a {
  color:white;
  border: 2px solid white;
  border-radius:5px;
- font-size:11px;
+ font-size:13px;
  text-transform: uppercase;
  font-family: Montserrat;
  font-weight: 400;
- padding:15px;
- width:80px;
+ padding:20px;
+ width:93px;
  cursor:pointer;
 }
 
@@ -354,7 +356,7 @@ li{
 }
 
 .center {
- width:30%;
+ width:72%;
  text-align: center;
  margin-left: auto;
  margin-right: auto;
@@ -390,7 +392,7 @@ li{
  color:white;
  z-index: 2;
  text-transform: uppercase;
- font-size: 13px;
+ font-size: 11px;
  top:50%;
  transform: rotate(90deg) translateY(50%);
  cursor: pointer;
@@ -442,26 +444,42 @@ li{
 }
 
 .ilust{
- width:350px;
- display:inline-block;
+text-align: center;
+width: 180px;
+display: block;
+margin: 0 auto;
+}
+
+.ilustindex{
+ width: 100px;
+ display: inline-block;
+}
+.stepcontainer{
+ display: inline-block;
+}
+.contentleft{
+ float:left;
+}
+.contentright{
+ float:right;
 }
 
 .ilust img{
  width:100%;
  height:auto;
- vertical-align: middle;
+ margin-top: 57px;
 }
 
 .pasoscontent{
- margin-top:150px;
+ margin-top:80px;
  margin-bottom:80px;
 }
 
 .contentpasos{
- margin:150px;
+ margin:10px;
  vertical-align: middle;
  color:#0f1230;
- width:400px;
+ width:200px;
  display:inline-block;
  text-align: left;
  left:0;
@@ -470,8 +488,9 @@ li{
 .contentpasos h1{
  text-align: left;
  margin:0;
- margin-bottom:-50px;
+ margin-bottom:-35px;
  color:#0f1230;
+ font-size: 30px;
 }
 
 .ilustmain{
@@ -530,11 +549,9 @@ li{
  font-family: Volkohn;
  font-style: italic;
  font-size: 16px;
- padding-left: 6.5%;
- padding-top: 9%;
+ padding-left: 15.5%;
  width: 6%;
- float: left;
- position:absolute;
+ margin-top: -30%;
 }
 
 .title-servicios {
@@ -542,23 +559,23 @@ li{
  font-family: Volkohn;
  font-style: italic;
  font-size: 16px;
- padding-left: 6.5%;
- top:20%;
+ padding-left: 8.5%;
+ top:13%;
  width: 6%;
  float: left;
  position:absolute;
 }
 
 .clients{
- height:75%;
+ height:400px;
  background-color: #ededed;
  margin:0 auto;
 }
 
 .footer{
- height:25%;
+ height:300px;
  background-color: black;
- position:relative;
+ position:absolute;
 }
 
 .footercontent{
@@ -566,15 +583,18 @@ li{
  text-align:left;
  color:white;
  display:inline-block;
- margin:50px;
+ margin:19px;
+ margin-top: 6%;
+ margin-left: 4%;
  width:200px;
 }
 
 .footertitle{
  color:white;
- font-size: 15px;
+ font-size: 17px;
  text-transform: uppercase;
  font-weight: 700;
+ margin-top: 38px;
 }
 
 .footerrights{
@@ -586,7 +606,7 @@ li{
 .footertext{
  font-family:'Nunito';
  color:white;
- font-size: 12px;
+ font-size: 14px;
 }
 
 .footertext a{
@@ -596,12 +616,12 @@ li{
 
 .client-container{
  margin:0 auto;
- padding-top: 11%;
  text-align: center;
 }
 
 .general-client {
- margin-right: 20px;
+ margin-right: 18px;
+ margin-bottom: 18px;
 }
 
 .row{
@@ -611,6 +631,7 @@ li{
 
 .rowproceso{
  width:100%;
+ margin-top: 10%;
 }
 
 .row .image {
@@ -666,7 +687,7 @@ li{
 }
 
 .fullcontact{
- height:75%;
+ height:385px;
  background-color: #d27c49;
  margin:0 auto;
  text-align: center;
@@ -674,7 +695,7 @@ li{
 }
 
 .textform{
- width:500px;
+ width:100px;
  text-align:center;
 }
 
@@ -717,8 +738,10 @@ li{
 /*Servicios*/
 
 .listado {
- display:block;
- vertical-align: middle;
+  display:inline-block;
+  vertical-align: middle;
+  text-align: left;
+  height:110px;
 }
 
 .listado #servicio {
@@ -730,7 +753,8 @@ li{
  text-transform: uppercase;
  cursor:pointer;
  line-height: 20px;
- margin-right:200px;
+ margin-right:30px;
+ margin-left: 40px;
 }
 
 .listado #servicio:hover {
@@ -744,33 +768,34 @@ li{
 .showimage {
  vertical-align: middle;
  display: inline-block;
- width:250px;
+ width:130px;
  height:auto;
- margin-right: 150px;
 }
 
 .showcontent {
- vertical-align: middle;
- display: inline-block;
- width:600px;
- height:200px;
+ text-align: left;
+ margin-top: 50px;
+ width:200px;
+ height:auto;
 }
 
 .title{
  font-family:'Montserrat';
  font-weight:700;
  color:white;
- font-size:70px;
+ font-size:60px;
+ margin-left: 40px;
 }
 
 .subtitle {
  font-family:'Montserrat';
  font-weight:700;
  color:white;
- font-size:40px;
+ font-size:35px;
  margin-top: -10px;
  text-transform: uppercase;
  margin-bottom:20px;
+ margin-left: 40px;
 }
 
 .content {
@@ -779,6 +804,7 @@ li{
  font-weight: 300;
  color:white;
  font-size: 16px;
+ margin-left: 40px;
 }
 
 .sectionscontainer{
@@ -795,10 +821,10 @@ li{
 }
 
 .container50{
- vertical-align: middle;
+ vertical-align: 200%;
  text-align:center;
  position:relative;
- width:30%;
+ width:80%;
  display:inline-block;
 }
 
