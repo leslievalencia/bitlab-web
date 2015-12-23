@@ -271,16 +271,16 @@ table{
 
 .textnosotros h1 {
  font-family: 'Montserrat';
- margin-bottom:-50px;
+ margin-bottom:-40px;
  color:black;
- font-size: 55px;
+ font-size: 50px;
 }
 
 .textnosotros h4 {
  font-family: 'Montserrat';
  margin-bottom:0px;
  color:black;
- font-size: 30px;
+ font-size: 25px;
 }
 
 .textproceso {
@@ -304,6 +304,33 @@ table{
  font-family: Montserrat;
  font-weight: 400;
  cursor:pointer;
+}
+.unetebtn {
+ text-decoration: none;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #7f345d;
+ width: 75px;
+ padding: 18px;
+ border-radius: 5px;
+ text-align: center;
+ color: white;
+ font-size: 11px;
+ text-transform: uppercase;
+ font-family: Montserrat;
+ font-weight: 400;
+ cursor: pointer;
+ margin-top: -27px;
+}
+
+.uscontainer{
+ display: table;
+}
+.contentleft{
+ float:none;
+}
+.contentright{
+ float:none;
 }
 
 a {
@@ -635,16 +662,16 @@ margin: 0 auto;
 }
 
 .row .image {
- float:left;
+ float: none;
  display: inline-block;
- width: 60%;
- height: 100%;
+ width: 100%;
+ height: 300px;
  background-size: cover;
 }
 
 .contenidoTexto{
  float:left;
- width:40%;
+ width:90%;
  display: inline-block;
 }
 
@@ -770,6 +797,7 @@ margin: 0 auto;
  display: inline-block;
  width:130px;
  height:auto;
+ margin-left: 40px;
 }
 
 .showcontent {
@@ -830,8 +858,12 @@ margin: 0 auto;
 
 
 .rowpeople h1 {
- margin-top:80px;
- margin-bottom:80px;
+ margin-top:108px;
+ margin-bottom:25px;
+}
+
+.unete h1 {
+  margin-top: 0px;
 }
 
 .person h1 {
