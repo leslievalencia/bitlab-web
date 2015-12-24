@@ -174,7 +174,7 @@ h6 {
  font-family: Montserrat;
  font-weight: 700;
  color: #0f1230;
- font-size: 30px;
+ font-size: 20px;
  text-transform: uppercase;
 }
 
@@ -282,9 +282,9 @@ table{
 }
 
 .textproceso {
- font-family: 'Nunito';
- font-size: 16px;
- margin-top:-33px;
+  font-family: 'Nunito';
+  font-size: 11px;
+  margin-top: -20px;
 }
 
 .button {
@@ -442,7 +442,7 @@ li{
 }
 
 .ilust{
- width:350px;
+ width:100px;
  display:inline-block;
 }
 
@@ -719,6 +719,8 @@ li{
 .listado {
  display:inline-block;
  vertical-align: middle;
+ margin-left: 20px;
+ margin-top: 30px;
 }
 
 .listado #servicio {
@@ -744,7 +746,7 @@ li{
 .showimage {
  vertical-align: middle;
  display: inline-block;
- width:110px;
+ width:100px;
  height:auto;
 }
 
@@ -760,6 +762,8 @@ li{
  font-weight:700;
  color:white;
  font-size:30px;
+ margin-left: 20px;
+ margin-bottom: 10px;
 }
 
 .subtitle {
@@ -770,6 +774,7 @@ li{
  margin-top: -10px;
  text-transform: uppercase;
  margin-bottom:0px;
+ margin-left: 20px;
 }
 
 .content {
@@ -777,7 +782,8 @@ li{
  font-family: 'Nunito';
  font-weight: 300;
  color:white;
- font-size: 16px;
+ font-size: 12px;
+ margin-left: 20px;
 }
 
 .sectionscontainer{
@@ -794,11 +800,13 @@ li{
 }
 
 .container50{
- vertical-align: middle;
- text-align:center;
- position:relative;
- width:30%;
- display:inline-block;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
 
 
