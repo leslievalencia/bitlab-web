@@ -549,9 +549,8 @@ text-align: center;
   color: white;
   font-size: 12px;
   font-family: 'Volkhov';
-  position: absolute;
   bottom: 75px;
-  right: 100px
+  right: 100px;
  }
  .footertext {
   font-family: 'Nunito';
@@ -714,6 +713,8 @@ text-align: center;
  }
  .people {
   background-color: #1d3350;
+  height:70%;
+  overflow-y: auto;
  }
  .people h1 {
   font-size: 30px;
