@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) {
+@media screen and (min-width:1360px) {
  body {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
@@ -24,6 +24,22 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+ }
+ .unetebtn {
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7f345d;
+  width: 80px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 400;
+  cursor: pointer;
  }
  .section.services h2 {
   font-family: Volkohn;
@@ -222,6 +238,10 @@
   font-family: 'Nunito';
   font-size: 16px;
   margin-top:-40px;
+ }
+ .textprocesomain {
+  font-family: 'Nunito';
+  font-size: 16px;
  }
  .textnosotros {
   padding: 50px;
@@ -468,15 +488,14 @@
   background-color: #964973;
  }
  .title-clients {
+  float: left;
   color: #0f1230;
   font-family: Volkohn;
   font-style: italic;
   font-size: 16px;
-  padding-left: 6.5%;
-  padding-top: 9%;
+  margin-top: 10%;
+  margin-left:8.5%;
   width: 6%;
-  float: left;
-  position: absolute;
  }
  .title-servicios {
   color: white;
@@ -489,16 +508,29 @@
   float: left;
   position: absolute;
  }
- .clients {
-  height: 75%;
+ .clients{
+  height:70%;
+  top:0;
+  overflow-y:auto;
+ }
+ .clientsnfooter {
   background-color: #ededed;
-  margin: 0 auto;
+text-align: center;
+ }
+ .client-container{
+  text-align: center;
+  width:50%;
+  float:right;
+  margin-right:20%;
+  margin-top:10%;
  }
  .footer {
-  height: 25%;
+  height: 30%;
   background-color: black;
-  position: relative;
- }
+  padding-top: 10px;
+  bottom:0;
+  overflow-y:auto;
+  }
  .footercontent {
   float: left;
   text-align: left;
@@ -529,11 +561,6 @@
  .footertext a {
   text-decoration: none;
   color: #c95854;
- }
- .client-container {
-  margin: 0 auto;
-  padding-top: 11%;
-  text-align: center;
  }
  .general-client {
   margin-right: 20px;
@@ -607,7 +634,7 @@
  .fullform {
   font-family: 'Montserrat';
   font-size: 11px;
-  color: #a85a2b;
+  color: #944211;
   margin-top: 60px;
   display: inline-block;
   text-align: right;
@@ -702,6 +729,10 @@
  .rowpeople h1 {
   margin-top: 80px;
   margin-bottom: 80px;
+ }
+ .unetenos h1 {
+  margin-top: 30px;
+  margin-bottom: 0;
  }
  .person h1 {
   font-size: 20px;

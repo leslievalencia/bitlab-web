@@ -497,15 +497,14 @@
   background-color: #964973;
  }
  .title-clients {
+  float: left;
   color: #0f1230;
   font-family: Volkohn;
   font-style: italic;
   font-size: 16px;
-  padding-left: 6.5%;
-  top: 6%;
+  margin-top: 30%;
+  margin-left:8.5%;
   width: 6%;
-  float: left;
-  height: 100px;
  }
  .title-servicios {
   color: white;
@@ -518,16 +517,13 @@
   float: left;
   position: absolute;
  }
- .clients {
-  height: 220px;
-  background-color: #ededed;
-  margin: 0 auto;
- }
  .footer {
-  height: 190px;
+  height: 40%;
   background-color: black;
   padding-top: 10px;
- }
+  bottom:0;
+  overflow-y:auto;
+  }
  .footercontent {
   text-align: left;
   color: white;
@@ -555,14 +551,23 @@
   text-decoration: none;
   color: #c95854;
  }
- .client-container {
-  padding-top: 5%;
-  right: 10px;
-  margin-top: 70px;
-  margin-left: 90px;
+ .clients{
+  height:60%;
+  top:0;
+  overflow-y:auto;
+ }
+ .clientsnfooter {
+  background-color: #ededed;
+text-align: center;
+ }
+ .client-container{
+  width:50%;
+  float:right;
+  margin-right:20%;
+  margin-top:25%;
  }
  .general-client {
-  width: 80px;
+  width: 50px;
   margin: 5px;
  }
  .row {
@@ -635,7 +640,7 @@
  .fullform {
   font-family: 'Montserrat';
   font-size: 9px;
-  color: #a85a2b;
+  color: #944211;
   margin-top: 20px;
   display: block;
   text-align: left;
