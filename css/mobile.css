@@ -1,820 +1,820 @@
 @media screen and (max-width:320px) {
- body {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
- }
- h1 {
-  color: white;
-  font-size: 55px;
-  text-transform: uppercase;
- }
- .section.main h1 {
-  color: white;
-  font-size: 25px;
-  width: 70%;
-  text-transform: uppercase;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
- }
- .section.mainproceso h1 {
-  color: white;
-  font-size: 25px;
-  width: 70%;
-  text-transform: uppercase;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
- }
- .section.services h2 {
-  font-family: Volkohn;
-  font-size: 16px;
-  color: white;
-  font-weight: 400;
-  font-style: Italic;
-  margin-left: 80px;
-  margin-top: -150px;
-  position: absolute;
- }
- h2 {
-  font-family: Volkohn;
-  font-size: 16px;
-  color: white;
-  font-weight: 400;
-  font-style: Italic;
-  margin-left: 80px;
-  margin-top: -150px;
-  position: absolute;
- }
- h3 {
-  font-family: Volkohn;
-  font-size: 12px;
-  color: #0f1230;
-  font-weight: 300;
-  font-style: italic;
- }
- #content h3 {
-  font-family: Volkohn;
-  font-size: 18px;
-  color: #0f1230;
-  font-weight: 300;
-  font-style: italic;
-  margin: 10px;
- }
- #content h4 {
-  font-family: Montserrat;
-  font-weight: 700;
-  color: #0f1230;
-  font-size: 24px;
-  text-transform: uppercase;
-  margin: 0;
- }
- h4 {
-  font-family: Montserrat;
-  font-weight: 700;
-  color: #0f1230;
-  font-size: 30px;
-  text-transform: uppercase;
- }
- .section.nosotros h5 {
-  font-family: Volkohn;
-  font-size: 12px;
-  color: white;
-  font-weight: 300;
-  font-style: italic;
-  margin-bottom: -55px;
- }
- h5 {
-  font-family: Volkohn;
-  font-size: 18px;
-  color: white;
-  font-weight: 300;
-  font-style: italic;
-  margin-bottom: -55px;
- }
- h6 {
-  font-family: Montserrat;
-  font-weight: 700;
-  color: white;
-  font-size: 30px;
-  text-transform: uppercase;
- }
- .section.mainnosotros h1 {
-  color: white;
-  font-size: 25px;
-  width: 50%;
-  text-transform: uppercase;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
- }
- .conocenos {
-  font-family: Montserrat;
-  font-weight: 700;
-  color: white;
-  font-size: 20px;
-  margin-top: 55px;
- }
- .section.main {
-  background-image: url('../assets/images/main_background.png');
- }
- .logo {
-  position: fixed;
-  width: 100px;
-  top: 35px;
-  left: 15px;
-  z-index: 1;
- }
- .menu {
-  position: fixed;
-  padding: 20px;
-  top: 20px;
-  right: 0;
-  z-index: 1;
-  cursor: pointer;
- }
- .arrow {
-  width:15px;
-  position: absolute;
-  bottom: 40px;
-  right: 50%;
- }
- .section.services {
-  background-color: #0f1230;
- }
- .text h1 {
-  color: black;
-  font-size: 55px;
-  text-transform: uppercase;
-  font-family: Montserrat;
-  margin: 0;
- }
- .text h4 {
-  font-family: Montserrat;
-  font-weight: 700;
-  color: #0f1230;
-  font-size: 20px;
-  text-transform: uppercase;
- }
- .text h3 {
-  font-family: Volkohn;
-  font-size: 18px;
-  color: #0f1230;
-  font-weight: 300;
-  font-style: italic;
-  margin-top: -25px;
- }
- .slidebar {
-  background: #3e0b36;
-  width: 600px;
-  position: absolute;
-  right: 0;
-  z-index: 1;
- }
- .box {
-  width: 200px;
-  height: 300px;
-  margin-left: 58px;
- }
- .servicios {
-  position: absolute;
-  list-style-type: square;
-  color: white;
-  left: 0;
-  margin-left: 55px;
- }
- .section.proceso {
-  background-color: #ededed;
-  text-align: center;
- }
- table {
-  margin-right: auto;
-  margin-left: auto;
- }
- #content {
-  height: 500px;
-  width: 400px;
-  text-align: center;
- }
- .slidebar a, .slidebar p {
-  color: white;
- }
- .slidebar ul {
-  list-style-type: none;
-  padding-left: 100px;
- }
- .slidebar p {
-  padding-left: 100px;
-  margin-top: 0;
- }
- .slidebar a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 27px;
- }
- .slidebar a:hover {
-  color: #c95854;
- }
- .menu-container p {
-  font-family: Volkohn;
-  font-style: italic;
-  color: #c95854;
-  font-size: 16px;
- }
- .text {
-  font-family: 'Nunito';
-  font-size: 11px;
-  margin-top: -28px;
- }
- .textnosotros {
-  padding: 50px;
-  vertical-align: middle;
-  font-family: 'Nunito';
-  font-size: 11px;
- }
- .textnosotros h1 {
-  font-family: 'Montserrat';
-  margin-bottom: -30px;
-  color: black;
-  font-size: 30px;
- }
- .textnosotros h3 {
-  margin-top:-20px;
- }
- .textnosotros h4 {
-  font-family: 'Montserrat';
-  color: black;
-  font-size: 20px;
- }
- .textnosotros p{
-  margin-top:-5px;
- }
- .textproceso {
-  font-family: 'Nunito';
-  font-size: 11px;
-  margin-top: -20px;
- }
- .button {
-  text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #7f345d;
-  width: 60px;
-  padding: 12px;
-  border-radius: 5px;
-  text-align: center;
-  color: white;
-  font-size: 9px;
-  text-transform: uppercase;
-  font-family: Montserrat;
-  font-weight: 400;
-  cursor: pointer;
-  margin-top: -100px;
- }
- .unetebtn {
-  text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #7f345d;
-  width: 60px;
-  padding: 12px;
-  border-radius: 5px;
-  text-align: center;
-  color: white;
-  font-size: 9px;
-  text-transform: uppercase;
-  font-family: Montserrat;
-  font-weight: 400;
-  cursor: pointer;
-  margin-top: -50px;
- }
- a {
-  text-decoration: none;
- }
- .button:hover {
-  background-color: #964973;
- }
- .nosotros {
-  background-image: url('../img/nosotros-img.png');
-  height: 500px;
-  text-align: center;
- }
- .buttonwhite {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  border: 2px solid white;
-  border-radius: 5px;
-  font-size: 9px;
-  text-transform: uppercase;
-  font-family: Montserrat;
-  font-weight: 400;
-  padding: 12px;
-  width: 60px;
-  cursor: pointer;
- }
- .buttonwhite:hover {
-  color: #d27c49;
-  border-color: #d27c49;
- }
- li {
-  font-size: 11px;
-  text-transform: uppercase;
-  line-height: 30px
- }
- .section.mainproceso {
-  background-image: url('../img/proceso-img.png');
- }
- .section.mainnosotros {
-  background-image: url('../img/nosotroscontent-img.png');
- }
- .center {
-  width: 75%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
- }
- .section.procesocontent {
-  background-color: #ededed;
-  text-align: center;
- }
- .three {
-  width: 33.33%;
-  float: left;
- }
- .inline {
-  float: left;
-  display: inline-block;
- }
- .slidebarContact {
-  background: #ededed;
-  width: 600px;
-  position: absolute;
-  right: 0;
-  z-index: 3;
- }
- .contactBtn {
-  right: -11px;
-  display: none;
-  position: absolute;
-  color: white;
-  z-index: 2;
-  text-transform: uppercase;
-  font-size: 10px;
-  top: 50%;
-  transform: rotate(90deg) translateY(50%);
-  cursor: pointer;
- }
- .contact-container h3 {
-  text-align: center;
-  margin-bottom: -30px;
- }
- .contact-container {
-  font-family: Nunito;
-  font-weight: 300;
-  color: #0f1230;
-  font-size: 16x;
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
- }
- .contact {
-  position: fixed;
-  padding: 20px;
-  top: 20px;
-  right: 20px;
-  z-index: 1;
-  cursor: pointer;
- }
- .slidebarContact a:hover {
-  color: #c95854;
- }
- .closeContact {
-  position: absolute;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #0f1230;
-  right: 30px;
-  top: 40px;
-  cursor: pointer;
- }
- .pasos {
-  width: 100%;
-  background-color: white;
-  text-align: center;
-  height: auto;
- }
- .ilust {
-  text-align: center;
-  width: 100px;
-  display: block;
-  margin: 0 auto;
- }
- .ilustindex{
-  width: 100px;
-  display: inline-block;
- }
- .stepcontainer{
-  display: inline-block;
- }
- .uscontainer{
-  display: table;
- }
- .contentleft{
-  float:none;
- }
- .contentright{
-  float:none;
- }
- .ilust img {
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
- }
- .pasoscontent {
-  margin-top: 80px;
-  margin-bottom: 80px;
- }
- .contentpasos {
-  margin: 10px;
-  vertical-align: middle;
-  color: #0f1230;
-  width: 200px;
-  display: inline-block;
-  text-align: left;
-  left: 0;
- }
- .contentpasos h1 {
-  text-align: left;
-  margin: 0;
-  margin-bottom: -35px;
-  color: #0f1230;
-  font-size: 30px;
- }
- .ilustmain {
-  margin: 50px;
-  width: 300px;
-  display: inline-block;
-  vertical-align: middle;
- }
- .minform {
-  font-family: 'Montserrat';
-  font-size: 11px;
-  color: #999999;
-  margin-top: 60px;
-  text-align: right;
-  text-transform: uppercase;
- }
- .minform input {
-  border-style: none;
-  background-color: #d1d1d1;
-  margin: 20px;
-  height: 20px;
-  width: 70%;
-  border-radius: 5px;
-  padding: 5px;
-  font-family: 'Nunito'
- }
- .buttonform {
-  text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  background-color: #7f345d;
-  width: 60px;
-  padding: 12px;
-  border-radius: 5px;
-  text-align: center;
-  color: white;
-  font-size: 9px;
-  text-transform: uppercase;
-  font-family: Montserrat;
-  font-weight: 400;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
- }
- .buttonform:hover {
-  background-color: #964973;
- }
- .title-clients {
-  float: left;
-  color: #0f1230;
-  font-family: Volkohn;
-  font-style: italic;
-  font-size: 16px;
-  margin-top: 30%;
-  margin-left:8.5%;
-  width: 6%;
- }
- .title-servicios {
-  color: white;
-  font-family: Volkohn;
-  font-style: italic;
-  font-size: 16px;
-  padding-left: 6.5%;
-  top: 15%;
-  width: 6%;
-  float: left;
-  position: absolute;
- }
- .footer {
-  height: 40%;
-  background-color: black;
-  padding-top: 10px;
-  bottom:0;
-  overflow-y:auto;
+  body {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
- .footercontent {
-  text-align: left;
-  color: white;
-  margin-left: 10%;
-  clear: both;
-  margin-top: 10px;
- }
- .footertitle {
-  color: white;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 700;
- }
- .footerrights {
-  color: white;
-  font-size: 10px;
-  font-family: 'Volkhov';
- }
- .footertext {
-  font-family: 'Nunito';
-  color: white;
-  font-size: 10px;
- }
- .footertext a {
-  text-decoration: none;
-  color: #c95854;
- }
- .clients{
-  height:60%;
-  top:0;
-  overflow-y:auto;
- }
- .clientsnfooter {
-  background-color: #ededed;
-text-align: center;
- }
- .client-container{
-  width:50%;
-  float:right;
-  margin-right:20%;
-  margin-top:25%;
- }
- .general-client {
-  width: 50px;
-  margin: 5px;
- }
- .row {
-  width: 100%;
-  height: 500px;
- }
- .rowproceso {
-  width: 100%;
-  margin-top: 15%;
- }
- .row .image {
-  float: none;
-  display: inline-block;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
- }
- .contenidoTexto {
-  float: none;
-  width: 100%;
-  display: inline-block;
- }
- .row .text {
-  float: left;
-  color: black;
- }
- .row .text h1 {
-  margin-bottom: -35px;
- }
- .row:nth-of-type(1) .image {
-  background-image: url('../img/img01.png');
- }
- .row:nth-of-type(2) .image {
-  background-image: url('../img/img02.png');
- }
- .row:nth-of-type(3) .image {
-  background-image: url('../img/img01.png');
- }
- .cliente1:hover {
-  content: url('../img/cliente1.png');
- }
- .cliente2:hover {
-  content: url('../img/cliente2.png');
- }
- .cliente3:hover {
-  content: url('../img/cliente3.png');
- }
- .cliente4:hover {
-  content: url('../img/cliente4.png');
- }
- .fullcontact {
-  height: 385px;
-  background-color: #d27c49;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 50px;
- }
- .textform {
-  width: 100%;
-  text-align: center;
- }
- .container-fullcontact {
-  position: inherit;
-  width: 75%;
-  text-align: center;
-  display: block;
-  vertical-align: middle;
-  margin: 0 auto;
- }
- .fullform {
-  font-family: 'Montserrat';
-  font-size: 9px;
-  color: #944211;
-  margin-top: 20px;
-  display: block;
-  text-align: left;
-  text-transform: uppercase;
- }
- .fullform input {
-  border-style: none;
-  width: 200px;
-  display: inline-block;
-  background-color: #bb6938;
-  margin: 5px;
-  height: 10px;
-  border-radius: 5px;
-  padding: 5px;
-  font-family: 'Nunito'
- }
- /*Servicios*/
- .listado {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: left;
-  height: 110px;
- }
- .listado #servicio {
-  vertical-align: middle;
-  font-family: 'Montserrat';
-  font-weight: '700';
-  color: white;
-  font-size: 10px;
-  text-transform: uppercase;
-  cursor: pointer;
-  line-height: 20px;
-  margin-right: 30px;
- }
- .listado #servicio:hover {
-  color: #c75156;
- }
- .listado #sercio:active {
-  color: #c75156;
- }
- .showimage {
-  vertical-align: middle;
-  display: inline-block;
-  width: 100px;
-  height: auto;
- }
- .showcontent {
-  width: 200px;
-  height: auto;
-  margin-top: 50px;
-  text-align: left;
- }
- .title {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  color: white;
-  font-size: 30px;
- }
- .subtitle {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  color: white;
-  font-size: 20px;
-  margin-top: -10px;
-  text-transform: uppercase;
-  margin-bottom: 0px;
- }
- .content {
-  width: 210px;
-  font-family: 'Nunito';
-  font-weight: 300;
-  color: white;
-  font-size: 11px;
- }
- .sectionscontainer {
-  margin: 0 auto;
-  width: 80%;
-  vertical-align: middle;
-  margin-top: 100px;
-  text-align: center;
- }
- .people {
-  background-color: #1d3350;
- }
- .people h1 {
-  font-size: 30px;
- }
- .container50 {
-  vertical-align: middle;
-  text-align: center;
-  position: relative;
-  width: 75%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 35px;
- }
- .rowpeople h1 {
-  margin-top: 80px;
-  margin-bottom: 50px;
-  font-size:20px;
- }
- .person h1 {
-  font-size: 15px;
-  margin-top: 10px;
- }
- .person h3 {
-  color: white;
-  font-size: 15px;
-  margin-top: -45px;
-  margin-bottom: -5px;
- }
- .person .text {
-  margin-top: 0;
-  padding: 10px;
- }
- .rowpeople {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 80px;
- }
- .person {
-  vertical-align: middle;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  width: 150px;
-  height: 250px;
-  margin-top:20px;
- }
- .person img{
-  width:100px;
- }
- .unetecontainer {
-  vertical-align: middle;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  width: 150px;
- }
- .unete h1 {
-  font-size: 20px;
-  margin-top: 40px;
- }
- .container50 .text h3 {
-  margin-bottom: -20px;
-  font-size: 12px;
- }
- .procesocontent .center h4 {
-  font-size: 20px;
- }
- .procesocontent .center h3 {
-  margin-bottom: -20px;
- }
- .center .text {
-  font-size: 11px;
-  margin-top: -20px;
- }
- .contentpasos h4 {
-  font-size: 20px;
- }
- .textform {
-  color: black;
- }
- .textform h3 {
-  margin-bottom: -25px;
- }
- .textform h4 {
-  color: black;
-  font-size: 20px;
-  margin
- }
- .textform p {
-  font-size: 12px;
-  margin-top: -25px;
- }
+  h1 {
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+  }
+  .section.main h1 {
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .section.mainproceso h1 {
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .section.services h2 {
+    font-family: Volkohn;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-style: Italic;
+    margin-left: 80px;
+    margin-top: -150px;
+    position: absolute;
+  }
+  h2 {
+    font-family: Volkohn;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-style: Italic;
+    margin-left: 80px;
+    margin-top: -150px;
+    position: absolute;
+  }
+  h3 {
+    font-family: Volkohn;
+    font-size: 12px;
+    color: #0f1230;
+    font-weight: 300;
+    font-style: italic;
+  }
+  #content h3 {
+    font-family: Volkohn;
+    font-size: 18px;
+    color: #0f1230;
+    font-weight: 300;
+    font-style: italic;
+    margin: 10px;
+  }
+  #content h4 {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #0f1230;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  h4 {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #0f1230;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .section.nosotros h5 {
+    font-family: Volkohn;
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: -55px;
+  }
+  h5 {
+    font-family: Volkohn;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: -55px;
+  }
+  h6 {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .section.mainnosotros h1 {
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .conocenos {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-top: 55px;
+  }
+  .section.main {
+    background-image: url('../assets/images/main_background.png');
+  }
+  .logo {
+    position: fixed;
+    width: 100px;
+    top: 35px;
+    left: 15px;
+    z-index: 1;
+  }
+  .menu {
+    position: fixed;
+    padding: 20px;
+    top: 20px;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .arrow {
+    width:15px;
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
+  }
+  .section.services {
+    background-color: #0f1230;
+  }
+  .text h1 {
+    color: black;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    margin: 0;
+  }
+  .text h4 {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #0f1230;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .text h3 {
+    font-family: Volkohn;
+    font-size: 18px;
+    color: #0f1230;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -25px;
+  }
+  .slidebar {
+    background: #3e0b36;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+  .box {
+    width: 200px;
+    height: 300px;
+    margin-left: 58px;
+  }
+  .servicios {
+    position: absolute;
+    list-style-type: square;
+    color: white;
+    left: 0;
+    margin-left: 55px;
+  }
+  .section.proceso {
+    background-color: #ededed;
+    text-align: center;
+  }
+  table {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #content {
+    height: 500px;
+    width: 400px;
+    text-align: center;
+  }
+  .slidebar a, .slidebar p {
+    color: white;
+  }
+  .slidebar ul {
+    list-style-type: none;
+    padding-left: 100px;
+  }
+  .slidebar p {
+    padding-left: 100px;
+    margin-top: 0;
+  }
+  .slidebar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 27px;
+  }
+  .slidebar a:hover {
+    color: #c95854;
+  }
+  .menu-container p {
+    font-family: Volkohn;
+    font-style: italic;
+    color: #c95854;
+    font-size: 16px;
+  }
+  .text {
+    font-family: 'Nunito';
+    font-size: 11px;
+    margin-top: -28px;
+  }
+  .textnosotros {
+    padding: 50px;
+    vertical-align: middle;
+    font-family: 'Nunito';
+    font-size: 11px;
+  }
+  .textnosotros h1 {
+    font-family: 'Montserrat';
+    margin-bottom: -30px;
+    color: black;
+    font-size: 30px;
+  }
+  .textnosotros h3 {
+    margin-top:-20px;
+  }
+  .textnosotros h4 {
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 20px;
+  }
+  .textnosotros p{
+    margin-top:-5px;
+  }
+  .textproceso {
+    font-family: 'Nunito';
+    font-size: 11px;
+    margin-top: -20px;
+  }
+  .button {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7f345d;
+    width: 60px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: -100px;
+  }
+  .unetebtn {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7f345d;
+    width: 60px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: -50px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #964973;
+  }
+  .nosotros {
+    background-image: url('../img/nosotros-img.png');
+    height: 500px;
+    text-align: center;
+  }
+  .buttonwhite {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+    padding: 12px;
+    width: 60px;
+    cursor: pointer;
+  }
+  .buttonwhite:hover {
+    color: #d27c49;
+    border-color: #d27c49;
+  }
+  li {
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 30px
+  }
+  .section.mainproceso {
+    background-image: url('../img/proceso-img.png');
+  }
+  .section.mainnosotros {
+    background-image: url('../img/nosotroscontent-img.png');
+  }
+  .center {
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section.procesocontent {
+    background-color: #ededed;
+    text-align: center;
+  }
+  .three {
+    width: 33.33%;
+    float: left;
+  }
+  .inline {
+    float: left;
+    display: inline-block;
+  }
+  .slidebarContact {
+    background: #ededed;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+  }
+  .contactBtn {
+    right: -11px;
+    display: none;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 10px;
+    top: 50%;
+    transform: rotate(90deg) translateY(50%);
+    cursor: pointer;
+  }
+  .contact-container h3 {
+    text-align: center;
+    margin-bottom: -30px;
+  }
+  .contact-container {
+    font-family: Nunito;
+    font-weight: 300;
+    color: #0f1230;
+    font-size: 16x;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contact {
+    position: fixed;
+    padding: 20px;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .slidebarContact a:hover {
+    color: #c95854;
+  }
+  .closeContact {
+    position: absolute;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0f1230;
+    right: 30px;
+    top: 40px;
+    cursor: pointer;
+  }
+  .pasos {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: auto;
+  }
+  .ilust {
+    text-align: center;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  .ilustindex{
+    width: 100px;
+    display: inline-block;
+  }
+  .stepcontainer{
+    display: inline-block;
+  }
+  .uscontainer{
+    display: table;
+  }
+  .contentleft{
+    float:none;
+  }
+  .contentright{
+    float:none;
+  }
+  .ilust img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  .pasoscontent {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .contentpasos {
+    margin: 10px;
+    vertical-align: middle;
+    color: #0f1230;
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    left: 0;
+  }
+  .contentpasos h1 {
+    text-align: left;
+    margin: 0;
+    margin-bottom: -35px;
+    color: #0f1230;
+    font-size: 30px;
+  }
+  .ilustmain {
+    margin: 50px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .minform {
+    font-family: 'Montserrat';
+    font-size: 11px;
+    color: #999999;
+    margin-top: 60px;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  .minform input {
+    border-style: none;
+    background-color: #d1d1d1;
+    margin: 20px;
+    height: 20px;
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Nunito'
+  }
+  .buttonform {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-color: #7f345d;
+    width: 60px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+  }
+  .buttonform:hover {
+    background-color: #964973;
+  }
+  .title-clients {
+    float: left;
+    color: #0f1230;
+    font-family: Volkohn;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 30%;
+    margin-left:8.5%;
+    width: 6%;
+  }
+  .title-servicios {
+    color: white;
+    font-family: Volkohn;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 6.5%;
+    top: 15%;
+    width: 6%;
+    float: left;
+    position: absolute;
+  }
+  .footer {
+    height: 40%;
+    background-color: black;
+    padding-top: 10px;
+    bottom:0;
+    overflow-y:auto;
+  }
+  .footercontent {
+    text-align: left;
+    color: white;
+    margin-left: 10%;
+    clear: both;
+    margin-top: 10px;
+  }
+  .footertitle {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .footerrights {
+    color: white;
+    font-size: 10px;
+    font-family: 'Volkhov';
+  }
+  .footertext {
+    font-family: 'Nunito';
+    color: white;
+    font-size: 10px;
+  }
+  .footertext a {
+    text-decoration: none;
+    color: #c95854;
+  }
+  .clients{
+    height:60%;
+    top:0;
+    overflow-y:auto;
+  }
+  .clientsnfooter {
+    background-color: #ededed;
+    text-align: center;
+  }
+  .client-container{
+    width:50%;
+    float:right;
+    margin-right:20%;
+    margin-top:25%;
+  }
+  .general-client {
+    width: 50px;
+    margin: 5px;
+  }
+  .row {
+    width: 100%;
+    height: 500px;
+  }
+  .rowproceso {
+    width: 100%;
+    margin-top: 15%;
+  }
+  .row .image {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+  }
+  .contenidoTexto {
+    float: none;
+    width: 100%;
+    display: inline-block;
+  }
+  .row .text {
+    float: left;
+    color: black;
+  }
+  .row .text h1 {
+    margin-bottom: -35px;
+  }
+  .row:nth-of-type(1) .image {
+    background-image: url('../img/img01.png');
+  }
+  .row:nth-of-type(2) .image {
+    background-image: url('../img/img02.png');
+  }
+  .row:nth-of-type(3) .image {
+    background-image: url('../img/img01.png');
+  }
+  .cliente1:hover {
+    content: url('../img/cliente1.png');
+  }
+  .cliente2:hover {
+    content: url('../img/cliente2.png');
+  }
+  .cliente3:hover {
+    content: url('../img/cliente3.png');
+  }
+  .cliente4:hover {
+    content: url('../img/cliente4.png');
+  }
+  .fullcontact {
+    height: 385px;
+    background-color: #d27c49;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .textform {
+    width: 100%;
+    text-align: center;
+  }
+  .container-fullcontact {
+    position: inherit;
+    width: 75%;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+  .fullform {
+    font-family: 'Montserrat';
+    font-size: 9px;
+    color: #944211;
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .fullform input {
+    border-style: none;
+    width: 200px;
+    display: inline-block;
+    background-color: #bb6938;
+    margin: 5px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Nunito'
+  }
+  /*Servicios*/
+  .listado {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    height: 110px;
+  }
+  .listado #servicio {
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-weight: '700';
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 20px;
+    margin-right: 30px;
+  }
+  .listado #servicio:hover {
+    color: #c75156;
+  }
+  .listado #sercio:active {
+    color: #c75156;
+  }
+  .showimage {
+    vertical-align: middle;
+    display: inline-block;
+    width: 100px;
+    height: auto;
+  }
+  .showcontent {
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+  }
+  .subtitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  .content {
+    width: 210px;
+    font-family: 'Nunito';
+    font-weight: 300;
+    color: white;
+    font-size: 11px;
+  }
+  .sectionscontainer {
+    margin: 0 auto;
+    width: 80%;
+    vertical-align: middle;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .people {
+    background-color: #1d3350;
+  }
+  .people h1 {
+    font-size: 30px;
+  }
+  .container50 {
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+  .rowpeople h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size:20px;
+  }
+  .person h1 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .person h3 {
+    color: white;
+    font-size: 15px;
+    margin-top: -45px;
+    margin-bottom: -5px;
+  }
+  .person .text {
+    margin-top: 0;
+    padding: 10px;
+  }
+  .rowpeople {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .person {
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+    margin-top:20px;
+  }
+  .person img{
+    width:100px;
+  }
+  .unetecontainer {
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+  }
+  .unete h1 {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .container50 .text h3 {
+    margin-bottom: -20px;
+    font-size: 12px;
+  }
+  .procesocontent .center h4 {
+    font-size: 20px;
+  }
+  .procesocontent .center h3 {
+    margin-bottom: -20px;
+  }
+  .center .text {
+    font-size: 11px;
+    margin-top: -20px;
+  }
+  .contentpasos h4 {
+    font-size: 20px;
+  }
+  .textform {
+    color: black;
+  }
+  .textform h3 {
+    margin-bottom: -25px;
+  }
+  .textform h4 {
+    color: black;
+    font-size: 20px;
+    margin
+  }
+  .textform p {
+    font-size: 12px;
+    margin-top: -25px;
+  }
 }
