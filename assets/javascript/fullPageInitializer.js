@@ -6,7 +6,7 @@ var file_config = {
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    anchors:['main', 'services', 'process', 'us', 'clients', 'procesocontent', 'nosotroscontent'],
+    anchors:['main', 'services', 'process', 'us', 'clients', 'procesocontent', 'nosotroscontent', 'pasos'],
     scrollOverflow: true,
     scrollingSpeed: 700,
     afterLoad: function(anchorLink, index){
