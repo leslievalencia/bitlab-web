@@ -116,6 +116,7 @@
   }
   .section.main {
     background-image: url('../assets/images/main_background.png');
+    background-size:cover;
   }
   .logo {
     position: fixed;
@@ -295,6 +296,7 @@
   }
   .nosotros {
     background-image: url('../img/nosotros-img.png');
+    background-size:cover;
     height: 500px;
     text-align: center;
   }
@@ -323,9 +325,11 @@
   }
   .section.mainproceso {
     background-image: url('../img/proceso-img.png');
+    background-size:cover;
   }
   .section.mainnosotros {
     background-image: url('../img/nosotroscontent-img.png');
+    background-size:cover;
   }
   .center {
     width: 75%;
@@ -411,6 +415,10 @@
   }
   .ilustindex{
     width: 100px;
+    display: inline-block;
+  }
+  .ilustproceso{
+    width: 150px;
     display: inline-block;
   }
   .stepcontainer{

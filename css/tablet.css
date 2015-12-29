@@ -304,6 +304,7 @@
   }
   .nosotros {
     background-image: url('../img/nosotros-img.png');
+    background-size:cover;
     height: 500px;
     text-align: center;
   }
@@ -332,9 +333,11 @@
   }
   .section.mainproceso {
     background-image: url('../img/proceso-img.png');
+    background-size:cover;
   }
   .section.mainnosotros {
     background-image: url('../img/nosotroscontent-img.png');
+    background-size:cover;
   }
   .center {
     width: 72%;
@@ -420,6 +423,10 @@
   }
   .ilustindex {
     width: 200px;
+    display: inline-block;
+  }
+  .ilustproceso {
+    width: 250px;
     display: inline-block;
   }
   .stepcontainer {
