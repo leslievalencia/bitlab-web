@@ -616,11 +616,12 @@
     content: url('../img/cliente4.png');
   }
   .fullcontact {
-    height: 75%;
     background-color: #d27c49;
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
+    height:70%;
+    overflow-y: auto;
   }
   .textform {
     width: 500px;
@@ -645,6 +646,8 @@
     display: inline-block;
     text-align: right;
     text-transform: uppercase;
+    height:30%;
+    overflow-y: auto;
   }
   .fullform input {
     border-style: none;
