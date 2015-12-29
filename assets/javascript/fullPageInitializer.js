@@ -1,3 +1,9 @@
+var file_config = {
+  "daniel.html": [3, 5],
+  "proceso.html": [2, 3],
+  "nosotros.html": [2, 5]
+};
+
 $(document).ready(function() {
   $('#fullpage').fullpage({
     anchors:['main', 'services', 'process', 'us', 'clients', 'procesocontent', 'nosotroscontent'],
@@ -18,28 +24,29 @@ $(window).resize(resizeSlidebar);
 function resizeSlidebar() {
   $('.slidebar').outerHeight($(window).height());
   $('.menu-container').css('margin-top', $(window).height() / 2 - $('.menu-container').height() / 2);
+  if (!menuStatus() && $('.slidebar').position().left < 0) {
+    $('.slidebar').css({left: $('.slidebar').position().left - $('.slidebar').position().left});
+  } else {
+    $('.slidebar').css({rigth: 0});
+  }
 }
 
 function toggleMenu( duration ) {
   state = menuStatus();
-  movement = state ? "+=600" : "-=600";
+  movementLength = $(window).width() < 600 ? $(window).width() : 600;
+  closeMovementLength = $(window).width() - $('.slidebar').position().left;
+  movement = state ? "+=" + movementLength : "-=" + closeMovementLength;
   toggleContactVisibility();
   imageUrl = state ? "img/cerrar.png" : "img/menu.png";
   $('.slidebar').animate({ right: movement }, duration);
   $('.menu').attr("src", imageUrl);
 }
-var file_config = {
-  "daniel.html": [3, 5],
-  "proceso.html": [2, 3],
-  "nosotros.html": [2, 5]
-};
 
 function posicion() {
   var url = location.href.split('/');
   var file = url[url.length -1].split('#')[0];
   return file_config[file];
 }
-
 
 function changeColor( index ) {
   var sections = posicion() || [];
