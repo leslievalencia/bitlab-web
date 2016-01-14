@@ -292,6 +292,8 @@
   .nosotros {
     background-image: url('../img/nosotros-img.png');
     background-size: cover;
+    background-position-y: 50%;
+    background-repet: no-repeat;
     height: 500px;
     text-align: center;
   }
@@ -324,6 +326,7 @@
   }
   .section.mainnosotros {
     background-image: url('../img/nosotroscontent-img.png');
+    background-position-y: 55%;
     background-size: cover;
   }
   .center {

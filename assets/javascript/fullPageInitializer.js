@@ -17,6 +17,7 @@ $(document).ready(function() {
   resizeSlidebar();
   toggleMenu(0);
   toggleContact(0);
+  changeImage();
 });
 
 $(window).resize(resizeSlidebar);
@@ -82,4 +83,16 @@ function toggleContact( duration ) {
 function resizeSlidebarContact() {
   $('.slidebarContact').outerHeight($(window).height());
   $('.contact-container').css('margin-top', $(window).height() / 2 - $('.contact-container').height() / 2);
+}
+
+function changeImage(){
+  $(".changeImage").each(function( _ , picture){
+    $(picture).hover(function(){
+      var diffImg = $(picture).attr('src').split(".")[0] + "2.png" ;
+      $(picture).attr('src', diffImg);
+    }, function(){
+      var currentImg = "img/" + $(picture).attr('data-name') + ".png"
+      $(picture).attr('src', currentImg);
+    });
+  });
 }
