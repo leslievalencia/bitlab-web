@@ -1,5 +1,5 @@
 var file_config = {
-  "daniel.html": [3, 5],
+  "index.html": [3, 5],
   "proceso.html": [2, 3],
   "nosotros.html": [2, 5]
 };
